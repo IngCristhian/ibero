@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Áreas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Áreas</h1>
+        
+        <form id="formulario">
+            <label for="figura">Selecciona una figura:</label>
+            <select id="figura" required>
+                <option value="" disabled selected>Elige una opción</option>
+                <option value="circulo">Círculo</option>
+                <option value="cuadrado">Cuadrado</option>
+                <option value="triangulo">Triángulo</option>
+            </select>
+
+            <div id="inputs">
+                <!-- Inputs específicos aparecerán aquí -->
+            </div>
+
+            <button type="submit">Calcular</button>
+        </form>
+        
+        <div id="resultado" class="resultado">
+            <!-- Aquí se mostrará el resultado -->
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
