@@ -4,7 +4,7 @@ import socket
 host = '127.0.0.1'  # Dirección IP del servidor
 port = 12345        # Puerto del servidor
 
-# Crear un socket
+#Crear un socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Conectarse al servidor
@@ -12,7 +12,7 @@ client_socket.connect((host, port))
 
 print("Conectado al servidor. Escribe 'exit' para cerrar la conexión.")
 
-# Enviar y recibir mensajes
+# Enviar y recibir mensajes.
 while True:
     # Pedir al usuario que ingrese un mensaje
     message = input("Ingrese mensaje para el servidor: ")
