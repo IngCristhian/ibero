@@ -47,8 +47,8 @@ jobs:
         id: build
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./docker/Dockerfile
+          context: calidad_software/therac-25-simulation
+          file: calidad_software/therac-25-simulation/docker/Dockerfile
           push: false
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
@@ -219,12 +219,14 @@ jobs:
         run: docker load --input /tmp/therac25-image.tar
 
       - name: 🧹 Análisis estático con Pylint
+        working-directory: calidad_software/therac-25-simulation
         run: |
           mkdir -p reports/static
           echo "🔍 Ejecutando análisis Pylint..."
           pylint src/simulator/ --output-format=parseable --reports=yes > reports/static/pylint-report.txt || true
 
       - name: 🧪 Ejecutar pruebas con cobertura
+        working-directory: calidad_software/therac-25-simulation
         run: |
           echo "🧪 Ejecutando suite completa de pruebas..."
           python -m pytest src/tests/ \
@@ -236,6 +238,7 @@ jobs:
             -v
 
       - name: 🐳 Probar aplicación web en contenedor
+        working-directory: calidad_software/therac-25-simulation
         run: |
           echo "🧪 Ejecutando pruebas contra el contenedor web..."
           # Probar que el contenedor web funciona correctamente
@@ -330,6 +333,7 @@ jobs:
           path: /tmp
 
       - name: 🐳 Cargar y ejecutar contenedor web
+        working-directory: calidad_software/therac-25-simulation
         run: |
           docker load --input /tmp/therac25-image.tar
           # Ejecutar solo el contenedor web optimizado
@@ -344,9 +348,11 @@ jobs:
           k6 version
 
       - name: 📁 Preparar reportes
+        working-directory: calidad_software/therac-25-simulation
         run: mkdir -p reports/k6
 
       - name: 🏃‍♂️ Pruebas de carga críticas (simulan bugs del Therac-25)
+        working-directory: calidad_software/therac-25-simulation
         run: |
           export PATH="$HOME/k6:$PATH"
           echo "🏃‍♂️ Ejecutando escenarios que reproducen accidentes históricos..."
@@ -368,12 +374,14 @@ jobs:
 
       - name: 🔍 Verificar logs del contenedor
         if: always()
+        working-directory: calidad_software/therac-25-simulation
         run: |
           echo "🔍 Verificando logs del contenedor web después de pruebas..."
           docker-compose logs therac_web | tail -50 || echo "No hay logs disponibles"
 
       - name: 🧹 Limpiar contenedor
         if: always()
+        working-directory: calidad_software/therac-25-simulation
         run: docker-compose down || true
 
       - name: 📊 Subir reportes k6
