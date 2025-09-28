@@ -1,0 +1,71 @@
+version: '3.8'
+
+services:
+  # Main Therac-25 Simulator
+  therac_simulator:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: therac25_simulator
+    environment:
+      - VERSION=buggy
+      - DEBUG_MODE=${DEBUG_MODE:-false}
+      - SIMULATION_SPEED=${SIMULATION_SPEED:-1x}
+    volumes:
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+    networks:
+      - therac_network
+    stdin_open: true  # For interactive mode
+    tty: true
+    restart: unless-stopped
+
+  # Buggy Version (Reproduces the deadly accidents)
+  therac_buggy:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: therac25_buggy
+    environment:
+      - VERSION=buggy
+      - DEBUG_MODE=true
+      - SIMULATION_SPEED=1x
+    volumes:
+      - ./logs:/app/logs:rw
+      - ./reports:/app/reports:rw
+    networks:
+      - therac_network
+    profiles:
+      - demo
+    command: ["python", "src/simulator/main.py", "--version=buggy", "--scenario=all"]
+
+  # Interactive Mode Container
+  therac_interactive:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: therac25_interactive
+    environment:
+      - VERSION=buggy
+      - DEBUG_MODE=true
+    volumes:
+      - ./logs:/app/logs:rw
+      - ./reports:/app/reports:rw
+    networks:
+      - therac_network
+    profiles:
+      - interactive
+    stdin_open: true
+    tty: true
+    command: ["python", "src/simulator/main.py", "--version=buggy", "--scenario=interactive"]
+
+networks:
+  therac_network:
+    driver: bridge
+    name: therac25_network
+
+volumes:
+  therac_logs:
+    driver: local
+  therac_reports:
+    driver: local
