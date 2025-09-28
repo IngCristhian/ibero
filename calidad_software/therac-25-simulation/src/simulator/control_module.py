@@ -128,6 +128,8 @@ class ControlModule:
                 self.state = MachineState.ERROR
                 return False
 
+        # After successful setup, machine should be ready to fire
+        self.state = MachineState.READY
         return True
 
     def edit_treatment(self, field: str, value: Any):
@@ -183,6 +185,14 @@ class ControlModule:
                 return "SAFETY_ABORT"
 
         self.state = MachineState.FIRING
+
+        # Simulate beam firing time
+        import time
+        time.sleep(0.5)
+
+        # Return to ready state after firing
+        self.state = MachineState.READY
+
         logger.info(f"Beam fired safely: {self.beam_mode} mode, dose {self.dose_value}")
         return "SUCCESS"
 

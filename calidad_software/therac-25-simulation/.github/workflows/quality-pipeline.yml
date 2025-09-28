@@ -235,15 +235,17 @@ jobs:
             --junitxml=reports/static/test-results.xml \
             -v
 
-      - name: 🐳 Probar aplicación en contenedor
+      - name: 🐳 Probar aplicación web en contenedor
         run: |
-          echo "🧪 Ejecutando pruebas contra el contenedor..."
-          # Probar que el contenedor funciona correctamente
-          docker run --rm -d --name therac-test $(docker images --format "table {{.Repository}}:{{.Tag}}" | grep therac | head -1) &
-          sleep 5
-          # Verificar que no hay procesos zombie o problemas de memoria
-          docker stats therac-test --no-stream || echo "⚠️ Contenedor no está ejecutando"
-          docker stop therac-test || true
+          echo "🧪 Ejecutando pruebas contra el contenedor web..."
+          # Probar que el contenedor web funciona correctamente
+          docker-compose up -d therac_web
+          sleep 10
+          # Verificar que la API responda
+          curl -f http://localhost:8080/api/status || echo "⚠️ API no responde"
+          # Verificar estado del contenedor
+          docker-compose ps therac_web
+          docker-compose down
 
       - name: ☁️ Análisis SonarCloud
         if: env.SONAR_TOKEN != ''
@@ -327,14 +329,14 @@ jobs:
           name: therac25-container
           path: /tmp
 
-      - name: 🐳 Cargar y ejecutar contenedor
+      - name: 🐳 Cargar y ejecutar contenedor web
         run: |
           docker load --input /tmp/therac25-image.tar
-          # Ejecutar contenedor en background para pruebas de carga
-          docker run -d --name therac-load-test \
-            -p 8080:8080 \
-            $(docker images --format "table {{.Repository}}:{{.Tag}}" | grep therac | head -1)
-          sleep 10
+          # Ejecutar solo el contenedor web optimizado
+          docker-compose up -d therac_web
+          echo "⏳ Esperando que el contenedor web esté listo..."
+          docker-compose logs therac_web
+          sleep 15
 
       - name: ⚡ Configurar k6 desde cache
         run: |
@@ -367,12 +369,12 @@ jobs:
       - name: 🔍 Verificar logs del contenedor
         if: always()
         run: |
-          echo "🔍 Verificando logs del contenedor después de pruebas de carga..."
-          docker logs therac-load-test | tail -50 || echo "No hay logs disponibles"
+          echo "🔍 Verificando logs del contenedor web después de pruebas..."
+          docker-compose logs therac_web | tail -50 || echo "No hay logs disponibles"
 
       - name: 🧹 Limpiar contenedor
         if: always()
-        run: docker stop therac-load-test && docker rm therac-load-test || true
+        run: docker-compose down || true
 
       - name: 📊 Subir reportes k6
         uses: actions/upload-artifact@v4

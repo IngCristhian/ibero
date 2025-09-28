@@ -13,7 +13,7 @@ black==23.7.0
 isort==5.12.0
 
 # Concurrency testing
-threading-test==1.0.0
+# threading tools will be built-in Python threading module
 
 # Performance testing (for k6 integration)
 requests==2.31.0

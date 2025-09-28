@@ -1,63 +1,32 @@
-version: '3.8'
+# THERAC-25 Simulation - Optimized for Quality Pipeline
+# Only Web UI container needed for all testing scenarios
 
 services:
-  # Main Therac-25 Simulator
-  therac_simulator:
+  # Web UI Container - Spanish Interface with Full Bug Simulation
+  therac_web:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    container_name: therac25_simulator
+    container_name: therac25_web
     environment:
       - VERSION=buggy
-      - DEBUG_MODE=${DEBUG_MODE:-false}
-      - SIMULATION_SPEED=${SIMULATION_SPEED:-1x}
+      - DEBUG_MODE=true
+      - FLASK_ENV=development
     volumes:
-      - ./logs:/app/logs
-      - ./reports:/app/reports
+      - ./logs:/app/logs:rw
+      - ./reports:/app/reports:rw
     networks:
       - therac_network
-    stdin_open: true  # For interactive mode
-    tty: true
+    ports:
+      - "8080:8080"
+    command: ["python", "src/web_interface/app.py"]
     restart: unless-stopped
-
-  # Buggy Version (Reproduces the deadly accidents)
-  therac_buggy:
-    build:
-      context: .
-      dockerfile: docker/Dockerfile
-    container_name: therac25_buggy
-    environment:
-      - VERSION=buggy
-      - DEBUG_MODE=true
-      - SIMULATION_SPEED=1x
-    volumes:
-      - ./logs:/app/logs:rw
-      - ./reports:/app/reports:rw
-    networks:
-      - therac_network
-    profiles:
-      - demo
-    command: ["python", "src/simulator/main.py", "--version=buggy", "--scenario=all"]
-
-  # Interactive Mode Container
-  therac_interactive:
-    build:
-      context: .
-      dockerfile: docker/Dockerfile
-    container_name: therac25_interactive
-    environment:
-      - VERSION=buggy
-      - DEBUG_MODE=true
-    volumes:
-      - ./logs:/app/logs:rw
-      - ./reports:/app/reports:rw
-    networks:
-      - therac_network
-    profiles:
-      - interactive
-    stdin_open: true
-    tty: true
-    command: ["python", "src/simulator/main.py", "--version=buggy", "--scenario=interactive"]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
 networks:
   therac_network:
