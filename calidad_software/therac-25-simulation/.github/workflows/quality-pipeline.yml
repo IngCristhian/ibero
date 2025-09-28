@@ -247,6 +247,7 @@ jobs:
 
       - name: ☁️ Análisis SonarCloud
         if: env.SONAR_TOKEN != ''
+        working-directory: calidad_software/therac-25-simulation
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
