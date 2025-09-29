@@ -270,16 +270,29 @@ jobs:
           docker-compose down || echo "⚠️ Error deteniendo contenedor"
 
       - name: ☁️ Análisis SonarCloud
-        if: env.SONAR_TOKEN != ''
+        continue-on-error: true
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
+          projectBaseDir: calidad_software/therac-25-simulation
           args: >
             -Dsonar.python.coverage.reportPaths=coverage.xml
             -Dsonar.python.xunit.reportPath=reports/static/test-results.xml
             -Dsonar.python.pylint.reportPath=reports/static/pylint-report.txt
+            -Dsonar.verbose=true
+
+      - name: ℹ️ Información sobre SonarCloud
+        if: env.SONAR_TOKEN == ''
+        run: |
+          echo "ℹ️ SonarCloud no configurado"
+          echo "Para habilitar SonarCloud:"
+          echo "1. Ve a https://sonarcloud.io"
+          echo "2. Conecta tu repositorio GitHub"
+          echo "3. Obtén tu token de organización"
+          echo "4. Agrega el token como secret SONAR_TOKEN en GitHub"
+          echo "5. Asegúrate de que sonar.organization en sonar-project.properties coincida"
 
       - name: 📊 Subir reportes
         uses: actions/upload-artifact@v4
@@ -450,50 +463,85 @@ jobs:
       - name: 📥 Checkout código
         uses: actions/checkout@v4
 
+      - name: 🐍 Setup Python para generar reporte
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
       - name: 📊 Descargar artefactos
         uses: actions/download-artifact@v4
         with:
           pattern: reportes-*
           merge-multiple: true
 
-      - name: 📋 Generar reporte ejecutivo
+      - name: 📊 Descargar artefactos de código
+        uses: actions/download-artifact@v4
+        with:
+          name: reportes-calidad-codigo
+          path: ./code-reports
+        continue-on-error: true
+
+      - name: 📋 Generar reporte HTML consolidado
         run: |
-          cat > QUALITY_REPORT.md << 'EOF'
-          # 🏥 Reporte de Calidad - Simulación Therac-25
+          echo "🔍 Generando reporte HTML consolidado..."
 
-          ## 🎯 Resumen Ejecutivo
+          # Instalar dependencias si es necesario
+          pip install --quiet requests || true
 
-          Este pipeline demuestra cómo las herramientas modernas de calidad habrían **prevenido las 6+ muertes del Therac-25**.
+          # Ejecutar generador de reporte
+          cd calidad_software/therac-25-simulation
 
-          ## ✅ Análisis Completado
+          # Copiar archivos de reportes a ubicaciones esperadas
+          mkdir -p reports/static reports/security
+          cp -r ../../code-reports/* . 2>/dev/null || true
 
-          | Herramienta | Propósito | Estado |
-          |-------------|-----------|---------|
-          | 🐳 **Docker** | Contenedor de aplicación | ✅ Construido |
-          | 🔒 **OWASP + Bandit** | Análisis de seguridad | ✅ Ejecutado |
-          | 📊 **Pylint + SonarCloud** | Análisis estático | ✅ Completado |
-          | 🧪 **Pytest** | Suite de pruebas | ✅ Con cobertura |
-          | ⚡ **k6** | Pruebas de carga | ✅ Bugs detectados |
+          # Generar reporte HTML
+          python quality/generate_report.py \
+            --reports-dir reports \
+            --output ../../quality-report.html \
+            --coverage-xml coverage.xml \
+            --junit-xml reports/static/test-results.xml || echo "⚠️ Error generando reporte, creando básico..."
 
-          ## 🐛 Bugs Históricos Detectables
+          cd ../../
 
-          - **Condición de Carrera**: Cambios X-ray↔Electron sin sincronización
-          - **Desbordamiento de Contador**: Contador 8-bit bypasea seguridad tras 256 usos
-          - **Race en Edición**: Cursor editing durante cambios de estado
-
-          ## 💡 Conclusión
-
-          **Cada muerte del Therac-25 era 100% prevenible** con herramientas modernas de calidad.
-
-          ---
-          *Generado automáticamente el $(date) por GitHub Actions*
+          # Si no se generó el reporte, crear uno básico
+          if [ ! -f quality-report.html ]; then
+            echo "📝 Creando reporte básico..."
+            cat > quality-report.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head><title>Reporte de Calidad Therac-25</title></head>
+          <body>
+          <h1>🏥 Reporte de Calidad - Simulación Therac-25</h1>
+          <p>Pipeline ejecutado el $(date)</p>
+          <p>⚠️ Reporte completo no disponible - revisar artefactos individuales</p>
+          </body>
+          </html>
           EOF
+          fi
+
+      - name: 📄 Generar versión PDF del reporte
+        run: |
+          echo "📄 Intentando generar PDF..."
+          # Instalar wkhtmltopdf si está disponible
+          sudo apt-get update && sudo apt-get install -y wkhtmltopdf || echo "⚠️ wkhtmltopdf no disponible"
+
+          # Generar PDF si wkhtmltopdf está disponible
+          if command -v wkhtmltopdf &> /dev/null; then
+            echo "✅ Generando PDF..."
+            wkhtmltopdf --page-size A4 --margin-top 0.75in --margin-right 0.75in --margin-bottom 0.75in --margin-left 0.75in quality-report.html quality-report.pdf || echo "⚠️ Error generando PDF"
+          else
+            echo "📝 PDF no disponible - solo HTML"
+            echo "Para generar PDF localmente: pip install pdfkit && apt-get install wkhtmltopdf"
+          fi
 
       - name: 📊 Subir reporte final
         uses: actions/upload-artifact@v4
         with:
           name: reporte-final-calidad
-          path: QUALITY_REPORT.md
+          path: |
+            quality-report.html
+            quality-report.pdf
 
       - name: 🎯 Resumen pipeline
         run: |
