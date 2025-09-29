@@ -82,7 +82,7 @@ jobs:
       - name: 🔑 Generar cache key
         id: cache-key
         run: |
-          echo "key=tools-${{ runner.os }}-${{ hashFiles('requirements.txt') }}-${{ hashFiles('.github/workflows/quality-pipeline.yml') }}" >> $GITHUB_OUTPUT
+          echo "key=tools-${{ runner.os }}-${{ hashFiles('calidad_software/therac-25-simulation/requirements.txt') }}-${{ hashFiles('.github/workflows/quality-pipeline.yml') }}" >> $GITHUB_OUTPUT
 
       - name: 📋 Cache herramientas
         id: cache-tools
@@ -100,7 +100,7 @@ jobs:
         if: steps.cache-tools.outputs.cache-hit != 'true'
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r calidad_software/therac-25-simulation/requirements.txt
           pip install coverage pytest-cov pylint black isort bandit safety
 
       - name: ⚡ Instalar k6
