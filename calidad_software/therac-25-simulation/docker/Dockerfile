@@ -16,8 +16,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY src/ ./src/
-COPY logs/ ./logs/
-COPY reports/ ./reports/
+
+# Create directories for logs and reports (they may be empty)
+RUN mkdir -p logs reports
+COPY logs/.gitkeep ./logs/ 2>/dev/null || true
+COPY reports/.gitkeep ./reports/ 2>/dev/null || true
 
 # Create non-root user for security
 RUN useradd -m -u 1000 therac && \
