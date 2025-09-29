@@ -17,10 +17,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY src/ ./src/
 
-# Create directories and copy any existing content
+# Create empty directories for logs and reports (content will be generated at runtime)
 RUN mkdir -p logs reports
-COPY logs/ ./logs/
-COPY reports/ ./reports/
 
 # Create non-root user for security
 RUN useradd -m -u 1000 therac && \
