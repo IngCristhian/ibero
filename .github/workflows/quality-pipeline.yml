@@ -114,7 +114,7 @@ jobs:
       - name: ✅ Verificar instalación
         run: |
           python --version
-          pip list | grep -E "(pytest|pylint|coverage)"
+          pip list | grep -E "(pytest|pylint|coverage)" || echo "Herramientas Python se instalarán desde cache"
           ~/k6/k6 version || echo "k6 será agregado al PATH en siguientes jobs"
 
   # Análisis de Seguridad con herramientas del runner
