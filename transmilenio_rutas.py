@@ -92,6 +92,12 @@ ESTACIONES = {
     "Calle 40 Sur":       (4.5530, -74.0800),
     "General Santander":  (4.5460, -74.0810),
     "Portal Sur":         (4.5390, -74.0820),
+
+    # Troncal Usme (Portal Sur - Portal Usme)
+    "Santa Lucia":        (4.5340, -74.0840),
+    "Socorro":            (4.5280, -74.0870),
+    "Consuelo":           (4.5220, -74.0890),
+    "Molinos":            (4.5170, -74.0920),
     "Portal Usme":        (4.5100, -74.0960),
 
     # Troncal Suba
@@ -208,7 +214,13 @@ CONEXIONES_RAW = [
     ("Quiroga", "Calle 40 Sur", "Caracas Sur", 2),
     ("Calle 40 Sur", "General Santander", "Caracas Sur", 2),
     ("General Santander", "Portal Sur", "Caracas Sur", 2),
-    ("Portal Sur", "Portal Usme", "Caracas Sur", 5),
+
+    # Troncal Usme (Portal Sur - Portal Usme)
+    ("Portal Sur", "Santa Lucia", "Usme", 3),
+    ("Santa Lucia", "Socorro", "Usme", 3),
+    ("Socorro", "Consuelo", "Usme", 3),
+    ("Consuelo", "Molinos", "Usme", 3),
+    ("Molinos", "Portal Usme", "Usme", 4),
 
     # Troncal Calle 26
     ("Portal El Dorado", "El Dorado", "Calle 26", 2),
@@ -281,6 +293,7 @@ TRANSBORDOS_RAW = [
     ("Ricaurte", ["NQS", "Americas"], 3),
     ("Hospitales", ["Caracas Sur", "NQS"], 3),
     ("Tercer Milenio", ["Caracas", "Caracas Sur", "Americas"], 3),
+    ("Portal Sur", ["Caracas Sur", "Usme"], 3),
     ("Portal 80", ["NQS", "Calle 80"], 3),
     ("Polo", ["NQS", "Calle 80"], 3),
 ]
