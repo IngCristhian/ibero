@@ -13,7 +13,8 @@ Este repositorio esta organizado por **ramas**, donde cada rama corresponde a un
 | Rama | Materia | Semestre |
 |------|---------|----------|
 | `inteligencia-artificial` | Inteligencia Artificial | 2026-1 |
-| `archivo-general` | Contenido anterior (Arquitectura de Software, etc.) | Anteriores |
+| `arq_sofwtare` | Arquitectura de Software | Anteriores |
+| `archivo-general` | Contenido anterior general | Anteriores |
 
 ## Como navegar
 
