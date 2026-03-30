@@ -1,0 +1,19 @@
+# ignorando el entorno virtual
+venv/
+
+# ignorando archivos de compilación de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorando archivos de configuración de IDE
+.idea/
+*.swp
+*.swo
+*.log
+*.DS_Store  # Para macOS
+
+# ignorando archivos de paquetes y distribuciones
+*.egg-info/
+dist/
+build/
