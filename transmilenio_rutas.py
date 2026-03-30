@@ -115,7 +115,6 @@ ESTACIONES = {
     "Humedal Cordoba":    (4.7050, -74.0780),
 
     # Troncal Calle 80
-    "Portal 80 Calle":    (4.6910, -74.0850),
     "Av Cali Calle 80":   (4.6890, -74.0930),
     "Granja":             (4.6870, -74.1000),
     "Minuto de Dios":     (4.6850, -74.1070),
