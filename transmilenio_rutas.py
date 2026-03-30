@@ -94,11 +94,15 @@ ESTACIONES = {
     "Portal Sur":         (4.5390, -74.0820),
 
     # Troncal Usme (Portal Sur - Portal Usme)
+    # Estaciones del corredor Caracas Sur / extension Usme
     "Santa Lucia":        (4.5340, -74.0840),
-    "Socorro":            (4.5280, -74.0870),
-    "Consuelo":           (4.5220, -74.0890),
-    "Molinos":            (4.5170, -74.0920),
-    "Portal Usme":        (4.5100, -74.0960),
+    "Calle 38A Sur":      (4.5300, -74.0850),
+    "Socorro":            (4.5250, -74.0870),
+    "Yomasa":             (4.5200, -74.0885),
+    "Aurora":             (4.5170, -74.0900),
+    "Consuelo":           (4.5140, -74.0915),
+    "Molinos":            (4.5110, -74.0935),
+    "Portal Usme":        (4.5050, -74.0960),
 
     # Troncal Suba
     "Portal Suba":        (4.7430, -74.0930),
@@ -221,13 +225,18 @@ CONEXIONES_RAW = [
     ("General Santander", "Portal Sur", "Caracas Sur", 3.0),
 
     # Troncal Usme (Portal Sur - Portal Usme)
-    # Extension 4.2 km (Molinos-Usme), velocidad: ~20 km/h
-    # Fuente: TransMilenio oficial - Portal Usme a Molinos 10 min
-    ("Portal Sur", "Santa Lucia", "Usme", 3.0),
-    ("Santa Lucia", "Socorro", "Usme", 2.5),
-    ("Socorro", "Consuelo", "Usme", 2.5),
-    ("Consuelo", "Molinos", "Usme", 2.5),
-    ("Molinos", "Portal Usme", "Usme", 3.0),
+    # Corredor completo con estaciones intermedias
+    # Velocidad: ~18-20 km/h (zona con pendientes y trafico)
+    # Tiempo total real Portal Sur - Portal Usme: ~45 min
+    # Fuentes: Rome2Rio, TransMilenio oficial, usuarios locales
+    ("Portal Sur", "Santa Lucia", "Usme", 5.0),
+    ("Santa Lucia", "Calle 38A Sur", "Usme", 4.0),
+    ("Calle 38A Sur", "Socorro", "Usme", 5.0),
+    ("Socorro", "Yomasa", "Usme", 5.0),
+    ("Yomasa", "Aurora", "Usme", 5.0),
+    ("Aurora", "Consuelo", "Usme", 5.0),
+    ("Consuelo", "Molinos", "Usme", 6.0),
+    ("Molinos", "Portal Usme", "Usme", 8.0),
 
     # Troncal Calle 26 (Aeropuerto - Centro)
     # Velocidad comercial: ~24 km/h, distancia: ~12 km
