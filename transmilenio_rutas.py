@@ -10,7 +10,7 @@ Componentes:
 - Motor de inferencia: evaluacion de reglas logicas
 - Algoritmo A*: busqueda heuristica para la ruta optima
 
-Autor: Cristhian David Alviso Ortiz
+Autor: Cristian David Alvis Ortiz
 Universidad: Corporacion Universitaria Iberoamericana
 Materia: Inteligencia Artificial - 2026-1
 """

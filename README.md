@@ -5,7 +5,7 @@
 - **Universidad:** Corporacion Universitaria Iberoamericana
 - **Programa:** Ingenieria de Software
 - **Materia:** Inteligencia Artificial - 2026-1
-- **Estudiante:** Cristhian David Alviso Ortiz
+- **Estudiante:** Cristian David Alvis Ortiz
 
 ## Descripcion del Proyecto
 
