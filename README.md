@@ -4,7 +4,7 @@
 
 - **Universidad:** Corporacion Universitaria Iberoamericana
 - **Programa:** Ingenieria de Software
-- **Estudiante:** Cristhian David Alviso Ortiz
+- **Estudiante:** Cristian David Alvis Ortiz
 
 ## Estructura del Repositorio
 
