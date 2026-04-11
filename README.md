@@ -10,9 +10,11 @@
 
 Este repositorio esta organizado por **ramas**, donde cada rama corresponde a una materia del plan de estudios:
 
-| Rama | Materia | Semestre |
-|------|---------|----------|
-| `inteligencia-artificial` | Inteligencia Artificial | 2026-1 |
+| Rama | Materia / Actividad | Semestre |
+|------|---------------------|----------|
+| `inteligencia-artificial` | Inteligencia Artificial - Actividad 2 (Busqueda y reglas) | 2026-1 |
+| `inteligencia-artificial-act3` | Inteligencia Artificial - Actividad 3 (Aprendizaje supervisado) | 2026-1 |
+| `inteligencia-artificial-act4` | Inteligencia Artificial - Actividad 4 (Aprendizaje no supervisado) | 2026-1 |
 | `arq_sofwtare` | Arquitectura de Software | Anteriores |
 | `archivo-general` | Contenido anterior general | Anteriores |
 
