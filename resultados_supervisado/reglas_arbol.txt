@@ -1,0 +1,119 @@
+REGLAS DEL ARBOL DE DECISION (primeros 5 niveles)
+======================================================================
+Modelo: DecisionTreeClassifier
+Target: Categoria de duracion de viaje
+Clases: Rapido, Medio, Lento
+======================================================================
+
+|--- num_estaciones <= 11.50
+|   |--- num_estaciones <= 8.50
+|   |   |--- distancia_km <= 9.48
+|   |   |   |--- hora_dia <= 22.50
+|   |   |   |   |--- num_estaciones <= 7.50
+|   |   |   |   |   |--- class: Rapido
+|   |   |   |   |--- num_estaciones >  7.50
+|   |   |   |   |   |--- distancia_km <= 4.25
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- distancia_km >  4.25
+|   |   |   |   |   |   |--- class: Rapido
+|   |   |   |--- hora_dia >  22.50
+|   |   |   |   |--- distancia_km <= 3.05
+|   |   |   |   |   |--- class: Rapido
+|   |   |   |   |--- distancia_km >  3.05
+|   |   |   |   |   |--- class: Rapido
+|   |   |--- distancia_km >  9.48
+|   |   |   |--- class: Rapido
+|   |--- num_estaciones >  8.50
+|   |   |--- es_hora_pico <= 0.50
+|   |   |   |--- num_estaciones <= 10.50
+|   |   |   |   |--- distancia_km <= 4.10
+|   |   |   |   |   |--- class: Rapido
+|   |   |   |   |--- distancia_km >  4.10
+|   |   |   |   |   |--- class: Rapido
+|   |   |   |--- num_estaciones >  10.50
+|   |   |   |   |--- dia_semana <= 3.50
+|   |   |   |   |   |--- hora_dia <= 14.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- hora_dia >  14.50
+|   |   |   |   |   |   |--- class: Rapido
+|   |   |   |   |--- dia_semana >  3.50
+|   |   |   |   |   |--- class: Rapido
+|   |   |--- es_hora_pico >  0.50
+|   |   |   |--- dia_semana <= 3.50
+|   |   |   |   |--- hora_dia <= 18.50
+|   |   |   |   |   |--- num_transbordos <= 1.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- num_transbordos >  1.50
+|   |   |   |   |   |   |--- class: Medio
+|   |   |   |   |--- hora_dia >  18.50
+|   |   |   |   |   |--- dia_semana <= 0.50
+|   |   |   |   |   |   |--- class: Rapido
+|   |   |   |   |   |--- dia_semana >  0.50
+|   |   |   |   |   |   |--- class: Rapido
+|   |   |   |--- dia_semana >  3.50
+|   |   |   |   |--- num_estaciones <= 10.50
+|   |   |   |   |   |--- hora_dia <= 12.50
+|   |   |   |   |   |   |--- class: Rapido
+|   |   |   |   |   |--- hora_dia >  12.50
+|   |   |   |   |   |   |--- class: Rapido
+|   |   |   |   |--- num_estaciones >  10.50
+|   |   |   |   |   |--- hora_dia <= 7.50
+|   |   |   |   |   |   |--- class: Rapido
+|   |   |   |   |   |--- hora_dia >  7.50
+|   |   |   |   |   |   |--- class: Medio
+|--- num_estaciones >  11.50
+|   |--- num_estaciones <= 21.50
+|   |   |--- num_estaciones <= 13.50
+|   |   |   |--- es_hora_pico <= 0.50
+|   |   |   |   |--- num_transbordos <= 2.50
+|   |   |   |   |   |--- num_portales <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- num_portales >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- num_transbordos >  2.50
+|   |   |   |   |   |--- hora_dia <= 15.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- hora_dia >  15.50
+|   |   |   |   |   |   |--- class: Rapido
+|   |   |   |--- es_hora_pico >  0.50
+|   |   |   |   |--- dia_semana <= 4.50
+|   |   |   |   |   |--- class: Medio
+|   |   |   |   |--- dia_semana >  4.50
+|   |   |   |   |   |--- class: Medio
+|   |   |--- num_estaciones >  13.50
+|   |   |   |--- es_hora_pico <= 0.50
+|   |   |   |   |--- dia_semana <= 5.50
+|   |   |   |   |   |--- num_estaciones <= 15.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- num_estaciones >  15.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- dia_semana >  5.50
+|   |   |   |   |   |--- distancia_km <= 10.01
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- distancia_km >  10.01
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- es_hora_pico >  0.50
+|   |   |   |   |--- num_estaciones <= 16.50
+|   |   |   |   |   |--- num_transbordos <= 2.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- num_transbordos >  2.50
+|   |   |   |   |   |   |--- class: Medio
+|   |   |   |   |--- num_estaciones >  16.50
+|   |   |   |   |   |--- dia_semana <= 5.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- dia_semana >  5.50
+|   |   |   |   |   |   |--- class: Medio
+|   |--- num_estaciones >  21.50
+|   |   |--- es_hora_pico <= 0.50
+|   |   |   |--- distancia_km <= 13.24
+|   |   |   |   |--- class: Medio
+|   |   |   |--- distancia_km >  13.24
+|   |   |   |   |--- dia_semana <= 5.50
+|   |   |   |   |   |--- distancia_km <= 21.20
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- distancia_km >  21.20
+|   |   |   |   |   |   |--- class: Lento
+|   |   |   |   |--- dia_semana >  5.50
+|   |   |   |   |   |--- class: Medio
+|   |   |--- es_hora_pico >  0.50
+|   |   |   |--- class: Lento

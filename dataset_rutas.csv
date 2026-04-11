@@ -1,0 +1,1501 @@
+origen,destino,num_estaciones,num_transbordos,num_troncales,distancia_km,hora_dia,dia_semana,es_hora_pico,es_fin_semana,num_portales,tiempo_minutos,categoria
+Calle 19,Av 68,8,3,2,5.814,13,1,0,0,0,14.29,Rapido
+Salitre El Greco,Calle 127,10,3,3,5.849,23,3,0,0,0,14.79,Rapido
+Escuela Militar,Prado,8,3,4,4.335,5,4,0,0,0,15.32,Rapido
+Salitre El Greco,Patio Bonito,19,4,3,6.017,12,3,0,0,0,39.23,Medio
+21 Angeles,Calle 63,9,1,2,8.081,18,2,1,0,0,21.0,Rapido
+Marsella,Calle 146,18,4,5,10.781,7,3,1,0,0,51.98,Lento
+Tercer Milenio,Gobernacion,8,3,2,6.439,6,5,1,1,0,14.68,Rapido
+Museo Nacional,Calle 106,9,4,3,7.993,22,2,0,0,0,15.39,Rapido
+Molinos,Shaio,25,4,5,20.848,11,5,0,1,0,66.95,Lento
+Hospitales,Calle 106,10,3,4,10.951,12,6,0,1,0,16.38,Rapido
+Molinos,Calle 63,22,4,4,15.773,16,2,0,0,0,60.0,Lento
+Calle 100 Suba,Tercer Milenio,11,3,3,10.436,10,4,0,0,0,19.04,Rapido
+Museo Nacional,Granja,12,5,4,8.701,22,1,0,0,0,23.62,Rapido
+CAN,Escuela Militar,7,3,4,2.442,6,6,1,1,0,13.46,Rapido
+De La Sabana,Santa Lucia,11,3,4,10.677,15,1,0,0,0,26.29,Medio
+Portal El Dorado,Calle 40 Sur,21,4,3,12.357,13,1,0,0,1,39.87,Medio
+Gobernacion,Simon Bolivar,9,3,4,0.647,18,4,1,0,0,22.9,Rapido
+Calle 38A Sur,Profamilia,16,2,3,9.949,20,0,1,0,0,54.67,Lento
+Calle 45,Yomasa,21,2,3,13.225,10,6,0,1,0,42.73,Medio
+NQS Calle 38A Sur,Museo Nacional,5,2,3,2.673,19,4,1,0,0,10.69,Rapido
+Alcala,Calle 19,12,4,3,11.925,22,6,0,1,0,16.75,Rapido
+Calle 19,Hospitales,5,1,2,2.302,18,1,1,0,0,9.66,Rapido
+Gobernacion,Prado,9,3,3,6.392,10,4,0,0,0,19.57,Rapido
+Humedal Cordoba,Prado,8,1,2,2.795,11,1,0,0,0,14.75,Rapido
+Restrepo,21 Angeles,16,3,4,16.225,15,3,0,0,0,35.13,Medio
+La Campiña,Ferias,12,3,3,5.909,6,1,1,0,0,41.35,Medio
+Calle 106,Portal Usme,27,6,5,20.552,7,6,1,1,1,84.3,Lento
+Portal Suba,San Facade,19,4,4,15.228,10,2,0,0,1,37.16,Medio
+De La Sabana,Salitre El Greco,13,4,3,3.048,11,5,0,1,0,21.78,Rapido
+Mundo Aventura,Portal 80,11,1,2,6.122,21,3,0,0,1,19.92,Rapido
+Marsella,Aurora,17,3,4,14.008,23,4,0,0,0,41.4,Medio
+Calle 100 Suba,Yomasa,23,5,5,18.959,6,1,1,0,0,65.8,Lento
+Marly,Calle 100 Suba,8,1,2,6.577,21,1,0,0,0,12.01,Rapido
+Salitre El Greco,Calle 34,8,1,2,4.071,23,4,0,0,0,12.52,Rapido
+Olaya,Cardio Infantil,20,4,5,19.252,8,0,1,0,0,60.09,Lento
+Olaya,Portal Norte,22,4,5,21.621,6,5,1,1,1,62.6,Lento
+CAN,Normandia,4,0,1,2.074,15,6,0,1,0,5.39,Rapido
+Cardio Infantil,Ricaurte,20,5,4,14.161,19,1,1,0,0,49.13,Medio
+Flores,Calle 100 Suba,6,1,2,5.275,19,6,1,1,0,12.16,Rapido
+Biblioteca Tintal,Salitre El Greco,18,4,3,5.026,5,0,0,0,0,34.98,Medio
+Calle 63 NQS,Olaya,7,1,2,10.131,20,3,1,0,0,18.11,Rapido
+CAN,Calle 63 NQS,9,3,4,0.808,17,0,1,0,0,25.29,Medio
+Portal El Dorado,Heroes,11,1,2,6.105,18,5,1,1,1,30.61,Medio
+San Victorino,Portal Usme,20,3,4,11.081,9,1,0,0,1,70.56,Lento
+Simon Bolivar,Salitre El Greco,11,3,4,1.694,6,5,1,1,0,24.14,Rapido
+Portal Sur,Prado,20,4,5,19.033,21,1,0,0,1,38.68,Medio
+Calle 85,Calle 100,3,0,1,1.57,7,5,1,1,0,5.35,Rapido
+Santa Lucia,Flores,15,3,4,12.281,23,4,0,0,0,25.56,Medio
+Simon Bolivar,Santa Lucia,11,2,3,12.859,21,2,0,0,0,25.0,Rapido
+Las Aguas,Ferias,12,6,4,9.667,13,3,0,0,0,23.32,Rapido
+Portal El Dorado,Las Aguas,15,4,2,8.236,7,0,1,0,1,42.7,Medio
+Calle 142,Calle 100 Suba,8,1,2,4.249,22,1,0,0,0,13.51,Rapido
+Minuto de Dios,Calle 100,6,3,3,5.449,12,2,0,0,0,12.78,Rapido
+Salitre El Greco,Humedal Cordoba,10,2,3,5.357,21,0,0,0,0,17.73,Rapido
+Calle 146,Calle 38A Sur,27,6,5,22.319,13,0,0,0,0,65.28,Lento
+Calle 45,Granja,10,3,3,6.712,14,4,0,0,0,18.66,Rapido
+Gobernacion,Prado,9,3,3,6.392,20,2,1,0,0,27.3,Medio
+Calle 127,Pepe Sierra,2,0,1,0.686,13,0,0,0,0,1.98,Rapido
+Gobernacion,Calle 63,2,0,1,1.093,19,4,1,0,0,2.95,Rapido
+Calle 19,Calle 100 Suba,8,3,3,8.995,9,4,0,0,0,13.56,Rapido
+San Facade,Calle 40 Sur,8,1,2,6.02,18,1,1,0,0,17.91,Rapido
+Av Chile,Modelia,12,3,4,3.51,11,5,0,1,0,19.56,Rapido
+San Victorino,Olaya,8,2,3,3.998,9,1,0,0,0,15.11,Rapido
+Calle 72,Olaya,12,3,3,10.018,5,1,0,0,0,18.69,Rapido
+Olaya,Flores,10,2,3,8.559,13,1,0,0,0,17.02,Rapido
+Av Cali Calle 80,Portal Suba,16,3,3,5.994,12,1,0,0,1,36.77,Medio
+La Campiña,Escuela Militar,11,2,3,6.574,12,0,0,0,0,23.22,Rapido
+Gratamira,Calle 100,5,0,1,4.285,13,2,0,0,0,8.75,Rapido
+Ricaurte,Marly,10,1,2,2.342,5,0,0,0,0,14.63,Rapido
+Simon Bolivar,Gobernacion,9,3,4,0.647,6,0,1,0,0,24.39,Rapido
+Las Aguas,Polo,10,4,3,9.598,21,0,0,0,0,16.54,Rapido
+General Santander,Av Chile,11,1,2,13.793,18,0,1,0,0,33.92,Medio
+Centro Memoria,Molinos,17,2,3,11.619,18,0,1,0,0,89.27,Lento
+Virrey,Las Aguas,11,3,2,8.559,8,5,1,1,0,26.02,Medio
+Olaya,Mandalay,10,2,3,8.836,17,5,1,1,0,22.09,Rapido
+Patio Bonito,Museo Nacional,12,1,2,6.973,10,4,0,0,0,22.95,Rapido
+21 Angeles,Humedal Cordoba,3,0,1,1.793,14,1,0,0,0,4.11,Rapido
+Mandalay,Portal Norte,23,4,5,15.45,19,3,1,0,1,72.04,Lento
+Calle 63 NQS,Calle 106,7,3,4,3.475,14,4,0,0,0,14.97,Rapido
+Calle 127,Ferias,8,4,4,4.97,14,1,0,0,0,17.68,Rapido
+Av Chile,Flores,7,2,3,3.126,20,4,1,0,0,17.53,Rapido
+Patio Bonito,Yomasa,20,3,4,13.05,23,1,0,0,0,49.82,Medio
+Normandia,Flores,7,1,2,3.979,9,5,0,1,0,12.09,Rapido
+Calle 146,Pepe Sierra,6,0,1,3.714,12,1,0,0,0,11.04,Rapido
+Portal Norte,Biblioteca Tintal,24,4,5,16.285,22,1,0,0,1,47.78,Medio
+Calle 38A Sur,Portal Norte,28,5,6,25.8,21,4,0,0,1,66.46,Lento
+Portal 80,Toberin,13,3,4,7.604,21,3,0,0,1,26.52,Medio
+Calle 63,Portal Suba,12,1,2,10.813,19,2,1,0,1,35.78,Medio
+Gratamira,Quiroga,19,4,4,16.984,20,5,1,1,0,41.24,Medio
+Heroes,Ferias,4,2,2,4.595,13,2,0,0,0,8.54,Rapido
+Calle 38A Sur,Calle 45,17,4,4,12.063,12,3,0,0,0,41.38,Medio
+Calle 100,Patio Bonito,15,3,4,9.858,18,2,1,0,0,45.99,Medio
+Consuelo,Patio Bonito,22,3,4,13.567,17,6,1,1,0,74.08,Lento
+Shaio,Museo Nacional,10,3,3,9.246,20,0,1,0,0,26.7,Medio
+NQS Calle 38A Sur,Patio Bonito,10,1,2,7.85,22,5,0,1,0,19.02,Rapido
+El Dorado,Portal Usme,30,5,4,17.164,12,2,0,0,1,81.21,Lento
+Marsella,Normandia,17,4,3,2.001,10,6,0,1,0,24.18,Rapido
+Virrey,Ricaurte,13,3,3,7.126,5,3,0,0,0,21.19,Rapido
+Calle 106,Pepe Sierra,2,0,1,1.013,9,6,0,1,0,1.89,Rapido
+Museo Nacional,Mandalay,10,1,2,5.61,11,3,0,0,0,18.73,Rapido
+Museo Nacional,Gratamira,12,3,3,10.959,18,2,1,0,0,32.85,Medio
+Salitre El Greco,Biblioteca Tintal,18,4,3,5.026,16,1,0,0,0,36.67,Medio
+Av Chile,Av 68,10,3,4,2.132,12,1,0,0,0,20.84,Rapido
+Ferias,Calle 34,10,3,3,7.249,20,5,1,1,0,23.54,Rapido
+Portal Norte,General Santander,27,5,4,23.975,16,1,0,0,1,58.7,Lento
+Calle 19,Calle 63,4,2,2,4.592,14,0,0,0,0,6.65,Rapido
+Shaio,Museo Nacional,10,3,3,9.246,17,5,1,1,0,21.53,Rapido
+Yomasa,Flores,18,3,4,13.9,8,5,1,1,0,64.78,Lento
+Suba TV 91,Calle 22,12,2,3,13.03,23,6,0,1,0,15.84,Rapido
+Mundo Aventura,Calle 100,12,3,4,7.08,21,5,0,1,0,22.7,Rapido
+Portal Usme,Calle 146,31,5,6,25.274,18,2,1,0,1,141.79,Lento
+Calle 45,Polo,6,1,2,5.582,10,5,0,1,0,9.48,Rapido
+Toberin,Ricaurte,21,5,4,15.292,20,3,1,0,0,55.84,Lento
+Granja,Mandalay,15,2,3,5.657,12,6,0,1,0,27.34,Medio
+Portal Americas,Flores,16,2,3,8.295,19,4,1,0,1,43.57,Medio
+Av 68,Pradera,15,4,3,1.46,15,1,0,0,0,26.98,Medio
+Gobernacion,Marsella,13,4,3,2.93,13,4,0,0,0,23.4,Rapido
+Alcala,Quiroga,20,5,4,17.464,11,0,0,0,0,36.43,Medio
+San Victorino,Ferias,11,6,4,9.102,20,5,1,1,0,28.08,Medio
+Aurora,Calle 127,24,5,6,20.811,14,1,0,0,0,64.45,Lento
+Simon Bolivar,Mundo Aventura,6,1,2,4.119,20,4,1,0,0,16.71,Rapido
+San Facade,Marly,9,1,2,2.826,16,5,0,1,0,11.99,Rapido
+Escuela Militar,Calle 22,11,2,3,7.394,11,2,0,0,0,18.98,Rapido
+Calle 85,Cardio Infantil,11,0,1,7.865,11,5,0,1,0,19.55,Rapido
+Restrepo,Suba TV 91,17,3,4,17.13,14,0,0,0,0,37.95,Medio
+Molinos,Calle 72,23,4,4,16.447,14,0,0,0,0,64.55,Lento
+Av Chile,Biblioteca Tintal,10,1,2,6.749,22,2,0,0,0,18.4,Rapido
+Portal Usme,Calle 146,31,5,6,25.274,5,4,0,0,1,83.18,Lento
+Marsella,Calle 85,11,3,4,4.957,6,2,1,0,0,35.88,Medio
+Calle 100,Normandia,9,2,3,4.819,20,0,1,0,0,24.18,Rapido
+Calle 45,Santa Lucia,18,2,3,11.606,14,0,0,0,0,37.15,Medio
+Patio Bonito,Tercer Milenio,10,2,3,7.272,12,6,0,1,0,16.32,Rapido
+Portal 80,Humedal Cordoba,7,2,3,1.737,23,3,0,0,1,13.7,Rapido
+Toberin,Calle 142,4,0,1,2.92,11,5,0,1,0,4.98,Rapido
+Calle 63,Ferias,6,3,3,5.026,10,4,0,0,0,10.62,Rapido
+Portal Americas,Suba TV 91,22,3,4,12.559,20,2,1,0,1,58.42,Lento
+Heroes,Portal El Dorado,11,1,2,6.105,7,5,1,1,1,23.44,Rapido
+Yomasa,Socorro,2,0,1,0.579,11,3,0,0,0,4.62,Rapido
+Calle 45,Granja,10,3,3,6.712,9,0,0,0,0,19.57,Rapido
+Suba TV 91,Santa Lucia,25,5,5,21.537,14,3,0,0,0,51.89,Lento
+Normandia,Granja,13,4,4,2.92,21,4,0,0,0,22.84,Rapido
+Av Chile,Polo,3,0,1,1.887,15,4,0,0,0,4.15,Rapido
+Shaio,Socorro,23,5,5,19.242,5,6,0,1,0,38.83,Medio
+Av Chile,Calle 72,5,2,3,1.91,20,4,1,0,0,14.65,Rapido
+Calle 85,Simon Bolivar,7,2,3,2.383,18,5,1,1,0,20.24,Rapido
+Portal Suba,Minuto de Dios,14,3,3,6.623,18,2,1,0,1,37.83,Medio
+Calle 63,Marly,4,0,1,2.127,18,5,1,1,0,6.46,Rapido
+Normandia,San Facade,13,4,3,6.431,6,3,1,0,0,28.19,Medio
+Calle 19,Normandia,9,3,2,6.478,21,6,0,1,0,13.51,Rapido
+Salitre El Greco,Portal Norte,17,3,3,12.074,18,0,1,0,1,42.15,Medio
+Pradera,Yomasa,15,3,4,13.876,19,6,1,1,0,40.94,Medio
+Calle 34,Heroes,7,0,1,3.815,19,5,1,1,0,12.19,Rapido
+Yomasa,Tercer Milenio,13,1,2,8.588,12,5,0,1,0,32.69,Medio
+San Facade,Olaya,6,1,2,4.452,7,1,1,0,0,16.5,Rapido
+Portal Norte,Calle 22,16,3,3,16.529,9,3,0,0,1,33.19,Medio
+Granja,Patio Bonito,17,2,3,7.15,20,3,1,0,0,49.36,Medio
+NQS Calle 38A Sur,Cardio Infantil,18,3,4,16.499,21,5,0,1,0,36.94,Medio
+Gratamira,Patio Bonito,19,3,4,10.699,15,6,0,1,0,35.82,Medio
+Heroes,Humedal Cordoba,5,0,1,5.511,23,4,0,0,0,8.98,Rapido
+Calle 45,Portal Americas,17,3,3,8.069,22,3,0,0,1,30.01,Medio
+Salitre El Greco,Museo Nacional,8,3,2,4.914,19,2,1,0,0,21.97,Rapido
+Ferias,Shaio,7,3,3,2.687,17,1,1,0,0,23.02,Rapido
+Las Aguas,Portal Suba,18,4,3,16.153,17,3,1,0,1,55.85,Lento
+Calle 45,Pradera,11,3,3,2.808,6,1,1,0,0,27.71,Medio
+Calle 142,Portal 80,10,3,4,5.107,8,4,1,0,1,30.21,Medio
+Calle 40 Sur,Olaya,3,0,1,1.57,9,0,0,0,0,4.94,Rapido
+Marsella,Virrey,12,3,4,5.514,17,5,1,1,0,28.44,Medio
+Ricaurte,Museo Nacional,5,1,2,1.116,15,5,0,1,0,6.94,Rapido
+Salitre El Greco,Av Cali Calle 80,12,4,4,3.721,7,1,1,0,0,37.64,Medio
+Escuela Militar,Calle 127,7,3,4,3.69,18,0,1,0,0,22.13,Rapido
+Calle 142,Portal 80,10,3,4,5.107,10,5,0,1,1,17.8,Rapido
+Mandalay,CAN,16,4,3,4.468,14,2,0,0,0,28.0,Medio
+Restrepo,Olaya,2,0,1,0.785,23,5,0,1,0,1.65,Rapido
+Calle 106,Toberin,9,0,1,6.971,17,4,1,0,0,24.0,Rapido
+Simon Bolivar,Calle 40 Sur,8,1,2,10.714,12,3,0,0,0,16.62,Rapido
+Alcala,Portal Norte,6,0,1,4.942,14,5,0,1,1,8.65,Rapido
+Minuto de Dios,Socorro,24,7,6,17.898,14,5,0,1,0,57.34,Lento
+Portal El Dorado,Humedal Cordoba,15,2,3,6.779,11,3,0,0,1,29.8,Medio
+Museo Nacional,Shaio,10,3,3,9.246,16,4,0,0,0,18.47,Rapido
+Aurora,Nariño,12,1,2,7.272,13,0,0,0,0,40.49,Medio
+Biblioteca Tintal,Tercer Milenio,9,2,3,6.796,20,6,1,1,0,20.57,Rapido
+Escuela Militar,Tercer Milenio,7,1,2,9.113,16,1,0,0,0,14.92,Rapido
+Calle 38A Sur,Yomasa,3,0,1,1.176,8,5,1,1,0,12.6,Rapido
+Portal 80,Av Cali Calle 80,5,0,1,0.915,23,2,0,0,1,8.07,Rapido
+Hospitales,Mandalay,7,1,2,6.951,18,1,1,0,0,18.5,Rapido
+Molinos,Restrepo,13,1,2,7.229,21,2,0,0,0,44.02,Medio
+Portal Sur,Hospitales,8,0,1,5.604,15,6,0,1,1,13.3,Rapido
+Calle 40 Sur,El Dorado,20,4,3,12.228,17,6,1,1,0,44.36,Medio
+Nariño,Alcala,15,4,5,15.111,13,4,0,0,0,31.29,Medio
+Gobernacion,Simon Bolivar,9,3,4,0.647,17,6,1,1,0,19.77,Rapido
+Escuela Militar,Portal Suba,12,2,3,7.405,5,4,0,0,1,24.81,Rapido
+Toberin,El Dorado,20,3,3,12.104,7,5,1,1,0,56.71,Lento
+Humedal Cordoba,Olaya,17,4,4,15.318,8,1,1,0,0,36.27,Medio
+Pradera,Calle 19,8,1,2,4.598,8,1,1,0,0,18.56,Rapido
+Portal El Dorado,Mundo Aventura,21,4,3,2.342,22,3,0,0,1,39.37,Medio
+Patio Bonito,Calle 142,21,4,5,13.46,20,4,1,0,0,67.69,Lento
+Av Cali Calle 80,Mundo Aventura,15,2,3,5.627,11,3,0,0,0,32.13,Medio
+Molinos,Calle 142,29,5,6,23.891,16,4,0,0,0,93.27,Lento
+CAN,Nariño,11,4,3,8.328,13,1,0,0,0,21.72,Rapido
+Portal El Dorado,Calle 127,15,3,3,8.467,11,5,0,1,1,29.86,Medio
+Biblioteca Tintal,Marly,16,1,2,6.169,12,1,0,0,0,29.0,Medio
+San Facade,Consuelo,16,2,3,10.484,23,1,0,0,0,45.59,Medio
+Calle 40 Sur,Suba TV 91,20,3,4,19.441,5,2,0,0,0,39.69,Medio
+Calle 34,Salitre El Greco,8,1,2,4.071,13,6,0,1,0,10.41,Rapido
+Av 68,Calle 34,9,1,2,4.436,5,2,0,0,0,13.92,Rapido
+Mandalay,Aurora,19,3,4,13.693,10,2,0,0,0,53.23,Lento
+Restrepo,Calle 19,7,1,2,3.973,7,3,1,0,0,14.22,Rapido
+Socorro,Calle 146,26,5,6,22.904,19,4,1,0,0,86.48,Lento
+Quiroga,Humedal Cordoba,16,3,4,16.095,19,5,1,1,0,44.43,Medio
+Portal Sur,Normandia,20,4,3,13.631,18,5,1,1,1,46.54,Medio
+Portal 80,Calle 100 Suba,5,2,3,1.447,7,2,1,0,1,14.66,Rapido
+Gratamira,Virrey,6,1,2,4.874,23,4,0,0,0,9.86,Rapido
+Suba TV 91,Restrepo,19,4,4,17.13,14,3,0,0,0,35.5,Medio
+Calle 19,San Facade,5,1,2,0.65,11,3,0,0,0,6.33,Rapido
+Marsella,Portal El Dorado,20,4,3,2.775,17,3,1,0,1,54.14,Lento
+Las Aguas,General Santander,12,2,3,5.967,16,1,0,0,0,23.07,Rapido
+Calle 127,Calle 106,3,0,1,1.698,7,3,1,0,0,5.98,Rapido
+Calle 34,San Victorino,6,1,2,2.582,6,4,1,0,0,13.19,Rapido
+Calle 22,Olaya,9,1,2,5.094,16,6,0,1,0,12.23,Rapido
+Biblioteca Tintal,Heroes,13,2,3,7.173,14,2,0,0,0,27.07,Medio
+Calle 45,Portal Sur,17,1,2,11.022,12,6,0,1,1,25.29,Medio
+Mundo Aventura,Calle 19,10,1,2,5.316,13,4,0,0,0,17.02,Rapido
+San Victorino,Virrey,10,3,2,8.238,22,0,0,0,0,16.41,Rapido
+Granja,Av 68,12,4,4,3.484,10,2,0,0,0,24.56,Rapido
+Marsella,Minuto de Dios,12,2,3,4.792,5,1,0,0,0,25.76,Medio
+Normandia,Calle 100,9,2,3,4.819,9,5,0,1,0,14.35,Rapido
+Restrepo,De La Sabana,5,2,3,6.217,17,3,1,0,0,11.14,Rapido
+La Campiña,Mandalay,20,3,4,11.199,23,4,0,0,0,34.44,Medio
+Calle 63,Virrey,5,0,1,2.83,6,5,1,1,0,8.52,Rapido
+Pepe Sierra,Portal Usme,28,6,5,21.564,19,3,1,0,1,113.68,Lento
+Calle 19,Minuto de Dios,10,5,4,9.407,18,0,1,0,0,27.46,Medio
+Portal Usme,Restrepo,14,1,2,7.944,14,0,0,0,1,58.26,Lento
+CAN,21 Angeles,11,2,3,7.135,11,2,0,0,0,23.34,Rapido
+General Santander,Hospitales,7,0,1,4.819,15,0,0,0,0,12.85,Rapido
+Calle 72,Calle 34,6,0,1,3.58,17,4,1,0,0,12.42,Rapido
+Modelia,Calle 100 Suba,11,2,3,4.788,17,6,1,1,0,24.49,Rapido
+Portal El Dorado,Calle 100 Suba,13,2,3,6.129,15,4,0,0,1,25.47,Medio
+Patio Bonito,Hospitales,9,1,2,7.615,8,3,1,0,0,21.98,Rapido
+Virrey,Portal El Dorado,13,1,2,6.709,16,0,0,0,1,23.31,Rapido
+Polo,Socorro,21,5,5,17.772,17,4,1,0,0,66.11,Lento
+Marsella,El Dorado,19,4,3,2.288,15,6,0,1,0,28.13,Medio
+Calle 19,Restrepo,7,1,2,3.973,21,1,0,0,0,10.1,Rapido
+Calle 40 Sur,Ferias,14,2,3,14.526,8,1,1,0,0,38.35,Medio
+Calle 45,Calle 100 Suba,7,1,2,5.921,10,6,0,1,0,9.97,Rapido
+Santa Lucia,Simon Bolivar,11,2,3,12.859,19,5,1,1,0,36.8,Medio
+Virrey,Mandalay,14,3,4,7.358,15,1,0,0,0,30.33,Medio
+Yomasa,Humedal Cordoba,23,4,5,20.568,13,4,0,0,0,59.01,Lento
+La Campiña,Portal Norte,18,1,2,5.59,19,0,1,0,1,47.37,Medio
+Calle 100 Suba,Calle 127,5,1,2,2.342,21,3,0,0,0,8.35,Rapido
+Av Chile,Portal Americas,12,1,2,8.651,23,5,0,1,1,20.49,Rapido
+Prado,Calle 45,10,2,2,8.012,6,3,1,0,0,25.21,Medio
+Marsella,Calle 106,12,4,5,6.519,21,5,0,1,0,19.67,Rapido
+Portal 80,Restrepo,14,5,5,13.017,21,4,0,0,1,22.26,Rapido
+Heroes,NQS Calle 38A Sur,11,4,4,7.504,18,6,1,1,0,20.86,Rapido
+Yomasa,Marly,20,2,3,12.561,7,2,1,0,0,63.77,Lento
+Heroes,General Santander,16,3,3,12.61,9,2,0,0,0,28.64,Medio
+Minuto de Dios,La Campiña,13,3,3,5.967,17,1,1,0,0,42.04,Medio
+La Campiña,San Victorino,16,4,3,14.833,17,5,1,1,0,42.17,Medio
+Restrepo,Calle 127,14,4,5,14.326,18,4,1,0,0,40.52,Medio
+Calle 85,De La Sabana,9,3,4,4.667,15,6,0,1,0,14.87,Rapido
+Calle 38A Sur,Calle 45,17,4,4,12.063,7,2,1,0,0,53.48,Lento
+Salitre El Greco,Restrepo,13,4,3,9.237,6,5,1,1,0,28.52,Medio
+Calle 34,Suba TV 91,14,1,2,11.756,17,1,1,0,0,34.87,Medio
+Virrey,Calle 63 NQS,7,2,3,2.31,19,0,1,0,0,19.06,Rapido
+Ferias,Portal 80,2,0,1,1.421,14,6,0,1,1,2.11,Rapido
+Ricaurte,Ferias,8,1,2,7.862,14,6,0,1,0,15.91,Rapido
+Cardio Infantil,Mundo Aventura,20,4,5,12.584,23,3,0,0,0,38.15,Medio
+Museo Nacional,Prado,12,4,3,10.475,21,3,0,0,0,23.52,Rapido
+Tercer Milenio,Calle 38A Sur,11,1,2,7.427,13,0,0,0,0,29.94,Medio
+San Facade,Calle 146,16,4,5,13.715,21,6,0,1,0,22.06,Rapido
+Calle 63,Granja,8,3,3,5.73,19,4,1,0,0,20.5,Rapido
+El Dorado,Portal Americas,24,4,3,4.72,16,0,0,0,1,47.28,Medio
+Mundo Aventura,Ferias,12,2,3,4.927,17,0,1,0,0,33.38,Medio
+Calle 142,Marly,13,2,2,10.246,9,1,0,0,0,24.47,Rapido
+Portal Suba,Calle 38A Sur,28,5,5,23.66,20,3,1,0,1,92.43,Lento
+Aurora,General Santander,7,1,2,3.37,11,6,0,1,0,22.48,Rapido
+Tercer Milenio,Restrepo,4,0,1,2.465,18,0,1,0,0,8.52,Rapido
+Calle 22,Biblioteca Tintal,13,1,2,6.37,12,3,0,0,0,24.53,Rapido
+Calle 100,Calle 19,7,3,3,8.203,20,4,1,0,0,17.29,Rapido
+Shaio,Ferias,7,3,3,2.687,9,2,0,0,0,16.01,Rapido
+Ferias,Shaio,7,3,3,2.687,18,1,1,0,0,20.97,Rapido
+Molinos,Calle 100,23,4,5,19.386,21,4,0,0,0,70.89,Lento
+San Facade,Aurora,15,2,3,10.128,17,6,1,1,0,50.03,Lento
+Mundo Aventura,General Santander,12,2,3,10.797,5,2,0,0,0,23.13,Rapido
+Yomasa,Calle 146,27,5,6,23.48,23,5,0,1,0,56.73,Lento
+Modelia,Salitre El Greco,4,0,1,2.245,15,6,0,1,0,5.73,Rapido
+Portal Norte,Portal Sur,28,5,4,24.759,10,6,0,1,2,44.57,Medio
+Portal El Dorado,Av Cali Calle 80,17,4,4,4.352,14,1,0,0,1,32.33,Medio
+Av Chile,Las Aguas,10,3,4,7.882,14,4,0,0,0,19.62,Rapido
+Portal Suba,General Santander,25,4,4,21.908,6,6,1,1,1,54.11,Lento
+Biblioteca Tintal,Marly,16,1,2,6.169,13,0,0,0,0,30.18,Medio
+Normandia,Portal 80,10,3,4,3.547,17,2,1,0,1,30.82,Medio
+Pradera,Mundo Aventura,3,0,1,1.861,21,2,0,0,0,4.52,Rapido
+Calle 106,Polo,4,2,3,2.666,10,4,0,0,0,6.98,Rapido
+Mandalay,Hospitales,7,1,2,6.951,14,3,0,0,0,13.88,Rapido
+Portal 80,Minuto de Dios,3,0,1,2.531,19,0,1,0,1,7.04,Rapido
+Toberin,Polo,12,2,3,7.946,13,5,0,1,0,25.39,Medio
+Calle 100 Suba,Normandia,10,2,3,4.178,16,4,0,0,0,20.92,Rapido
+Av 68,Calle 40 Sur,17,4,3,11.689,19,0,1,0,0,38.24,Medio
+Molinos,NQS Calle 38A Sur,16,2,3,9.225,23,0,0,0,0,52.26,Lento
+Mundo Aventura,Portal 80,11,1,2,6.122,7,4,1,0,1,30.33,Medio
+Las Aguas,Gratamira,14,4,3,12.693,12,0,0,0,0,23.56,Rapido
+Quiroga,NQS Calle 38A Sur,6,1,2,3.554,22,0,0,0,0,9.41,Rapido
+Portal Americas,De La Sabana,8,0,1,6.668,14,5,0,1,1,15.64,Rapido
+Calle 22,Calle 38A Sur,15,2,3,9.274,7,3,1,0,0,44.43,Medio
+Calle 127,Las Aguas,13,5,3,11.497,16,5,0,1,0,20.87,Rapido
+Humedal Cordoba,Calle 63,7,1,2,6.3,10,6,0,1,0,9.6,Rapido
+Centro Memoria,Calle 38A Sur,12,2,3,9.362,12,6,0,1,0,22.83,Rapido
+Shaio,Mundo Aventura,14,3,4,7.248,19,6,1,1,0,36.04,Medio
+Calle 127,Calle 100,4,0,1,2.155,14,3,0,0,0,7.4,Rapido
+Restrepo,Olaya,2,0,1,0.785,18,6,1,1,0,2.14,Rapido
+Las Aguas,Calle 100 Suba,11,4,3,10.101,19,3,1,0,0,28.36,Medio
+San Facade,Socorro,13,2,3,9.199,10,6,0,1,0,29.46,Medio
+CAN,Calle 22,5,2,2,4.985,21,1,0,0,0,7.2,Rapido
+El Dorado,Minuto de Dios,14,4,4,2.905,21,2,0,0,0,27.2,Medio
+San Facade,Gratamira,13,3,4,11.785,9,5,0,1,0,25.22,Medio
+Prado,Calle 63 NQS,10,3,4,5.899,23,4,0,0,0,18.8,Rapido
+Tercer Milenio,Marsella,6,0,1,5.808,23,0,0,0,0,9.45,Rapido
+Av Chile,Shaio,7,2,3,3.126,13,5,0,1,0,12.96,Rapido
+Virrey,Av 68,9,1,2,3.731,20,5,1,1,0,20.17,Rapido
+Humedal Cordoba,Portal Sur,21,4,4,18.431,12,6,0,1,1,34.6,Medio
+Portal El Dorado,Calle 100 Suba,13,2,3,6.129,6,1,1,0,1,35.15,Medio
+Consuelo,Marsella,18,3,4,14.332,9,2,0,0,0,56.59,Lento
+Minuto de Dios,Normandia,12,4,4,2.93,9,6,0,1,0,19.9,Rapido
+Las Aguas,Ferias,12,6,4,9.667,19,0,1,0,0,30.0,Medio
+Calle 142,Biblioteca Tintal,20,4,5,12.551,14,3,0,0,0,46.35,Medio
+Calle 63,Mandalay,14,3,3,5.708,23,5,0,1,0,21.45,Rapido
+Pradera,Profamilia,10,1,2,3.866,19,3,1,0,0,24.97,Rapido
+Calle 127,Nariño,15,5,4,13.542,21,3,0,0,0,25.64,Medio
+Modelia,Biblioteca Tintal,21,4,3,3.574,6,2,1,0,0,59.36,Lento
+Portal Suba,Heroes,10,0,1,10.043,22,0,0,0,1,18.84,Rapido
+Gobernacion,Molinos,23,5,4,16.035,17,2,1,0,0,76.82,Lento
+San Victorino,Cardio Infantil,17,5,3,15.304,16,4,0,0,0,31.21,Medio
+Portal Americas,San Facade,10,0,1,7.337,13,6,0,1,1,18.08,Rapido
+Calle 22,Calle 34,3,0,1,1.35,8,3,1,0,0,5.14,Rapido
+San Victorino,Molinos,19,3,4,10.375,9,1,0,0,0,59.39,Lento
+Av Chile,Av Cali Calle 80,8,1,2,3.062,9,5,0,1,0,14.79,Rapido
+Portal El Dorado,Calle 45,11,1,2,6.122,21,1,0,0,1,18.77,Rapido
+Calle 63,Nariño,9,3,3,7.774,14,4,0,0,0,15.27,Rapido
+Ricaurte,Portal Usme,17,2,3,12.245,23,2,0,0,1,52.27,Lento
+Marly,Calle 19,5,0,1,2.465,18,4,1,0,0,10.0,Rapido
+Yomasa,Av 68,23,5,4,15.318,20,2,1,0,0,89.35,Lento
+Simon Bolivar,Shaio,9,2,3,5.48,12,5,0,1,0,16.33,Rapido
+Restrepo,Yomasa,10,1,2,6.128,17,1,1,0,0,44.48,Medio
+Shaio,Calle 19,9,3,3,9.905,11,0,0,0,0,16.55,Rapido
+Olaya,Consuelo,11,1,2,6.071,18,4,1,0,0,61.71,Lento
+CAN,Calle 38A Sur,19,5,4,14.008,21,1,0,0,0,41.86,Medio
+Portal Sur,Restrepo,6,0,1,3.924,17,2,1,0,1,18.33,Rapido
+Ricaurte,Marsella,4,0,1,3.789,22,2,0,0,0,6.55,Rapido
+Gobernacion,Toberin,14,3,3,10.826,20,1,1,0,0,39.3,Medio
+Humedal Cordoba,El Dorado,14,2,3,6.22,14,6,0,1,0,20.83,Rapido
+Portal Usme,Las Aguas,21,3,4,10.769,20,2,1,0,1,103.14,Lento
+Gratamira,Heroes,6,0,1,6.459,8,4,1,0,0,15.68,Rapido
+Nariño,Minuto de Dios,11,2,3,12.046,9,2,0,0,0,24.62,Rapido
+Calle 106,Minuto de Dios,7,4,4,5.551,19,5,1,1,0,17.85,Rapido
+Centro Memoria,Ricaurte,4,1,2,1.005,13,4,0,0,0,5.46,Rapido
+Toberin,Socorro,30,6,5,25.148,12,1,0,0,0,68.32,Lento
+El Dorado,Escuela Militar,12,3,4,4.131,6,0,1,0,0,34.12,Medio
+Calle 142,Calle 38A Sur,26,6,5,21.644,5,4,0,0,0,53.23,Lento
+Portal Suba,Portal Sur,26,4,4,22.677,11,6,0,1,2,43.81,Medio
+CAN,Calle 127,9,3,3,5.661,23,1,0,0,0,15.9,Rapido
+Av Cali Calle 80,Calle 72,8,3,3,4.95,18,6,1,1,0,18.91,Rapido
+Nariño,Pradera,5,2,3,7.272,10,5,0,1,0,9.47,Rapido
+Av Cali Calle 80,Alcala,13,4,4,5.389,14,4,0,0,0,31.68,Medio
+Marly,Heroes,6,0,1,3.038,19,5,1,1,0,10.8,Rapido
+Calle 38A Sur,Prado,22,5,6,20.075,19,2,1,0,0,66.25,Lento
+Calle 63,Portal El Dorado,9,0,1,5.95,13,5,0,1,1,15.53,Rapido
+Hospitales,Santa Lucia,9,1,2,6.186,11,1,0,0,0,22.36,Rapido
+Normandia,Pepe Sierra,11,3,3,5.87,21,2,0,0,0,18.61,Rapido
+Calle 85,Calle 38A Sur,20,4,4,15.567,20,2,1,0,0,60.63,Lento
+NQS Calle 38A Sur,Ferias,10,1,2,10.554,19,6,1,1,0,23.81,Rapido
+Simon Bolivar,Shaio,9,2,3,5.48,5,2,0,0,0,18.57,Rapido
+CAN,Calle 22,5,2,2,4.985,19,2,1,0,0,11.36,Rapido
+La Campiña,Calle 22,13,2,3,13.96,14,2,0,0,0,24.88,Rapido
+Calle 38A Sur,Portal Sur,3,0,1,1.053,9,3,0,0,1,9.72,Rapido
+Patio Bonito,San Facade,9,0,1,6.617,20,6,1,1,0,20.28,Rapido
+De La Sabana,Flores,9,2,3,2.041,7,4,1,0,0,21.44,Rapido
+Calle 100 Suba,Santa Lucia,20,5,5,17.367,8,0,1,0,0,67.0,Lento
+Centro Memoria,Shaio,11,3,3,9.458,22,1,0,0,0,18.02,Rapido
+Portal 80,Calle 19,8,4,4,9.263,11,5,0,1,1,13.53,Rapido
+Profamilia,Portal Americas,16,1,2,7.834,6,3,1,0,1,38.16,Medio
+Santa Lucia,CAN,18,5,4,13.558,22,3,0,0,0,34.56,Medio
+Aurora,Nariño,12,1,2,7.272,13,6,0,1,0,27.59,Medio
+Calle 100 Suba,Av Chile,6,2,3,2.223,18,2,1,0,0,18.37,Rapido
+CAN,Calle 100,6,2,3,3.641,20,0,1,0,0,12.68,Rapido
+Calle 38A Sur,Patio Bonito,18,3,4,12.172,16,3,0,0,0,46.66,Medio
+Museo Nacional,Calle 106,9,4,3,7.993,22,1,0,0,0,14.34,Rapido
+Calle 72,Ricaurte,10,3,3,4.989,17,4,1,0,0,22.19,Rapido
+21 Angeles,Aurora,28,5,5,22.543,14,3,0,0,0,73.04,Lento
+Ricaurte,Museo Nacional,5,1,2,1.116,12,1,0,0,0,6.74,Rapido
+Cardio Infantil,Calle 19,15,4,3,14.499,6,6,1,1,0,33.62,Medio
+Aurora,Ferias,21,3,4,18.434,11,0,0,0,0,53.59,Lento
+Suba TV 91,Biblioteca Tintal,20,3,4,11.134,12,5,0,1,0,36.66,Medio
+Salitre El Greco,De La Sabana,13,4,3,3.048,6,1,1,0,0,30.46,Medio
+Shaio,Las Aguas,12,4,3,10.998,23,4,0,0,0,22.33,Rapido
+Ferias,Humedal Cordoba,8,3,3,3.086,9,5,0,1,0,15.97,Rapido
+Gratamira,CAN,10,2,3,6.336,22,4,0,0,0,19.36,Rapido
+Yomasa,Pepe Sierra,22,5,6,19.767,22,3,0,0,0,49.72,Medio
+Museo Nacional,Restrepo,6,1,2,4.637,15,5,0,1,0,7.74,Rapido
+Museo Nacional,Calle 85,8,2,2,5.967,22,3,0,0,0,11.01,Rapido
+Calle 40 Sur,Portal Norte,24,4,5,23.19,6,4,1,0,1,69.81,Lento
+Restrepo,Calle 38A Sur,8,1,2,4.964,17,1,1,0,0,27.1,Medio
+Calle 106,Portal Americas,17,4,5,11.123,16,0,0,0,1,40.67,Medio
+Biblioteca Tintal,Granja,16,2,3,6.37,17,5,1,1,0,41.17,Medio
+Calle 100 Suba,Cardio Infantil,10,1,2,5.908,23,5,0,1,0,15.52,Rapido
+Consuelo,Marly,22,2,3,13.28,14,0,0,0,0,54.59,Lento
+Calle 22,Portal Sur,13,1,2,8.23,12,5,0,1,1,21.42,Rapido
+Ferias,San Facade,13,6,5,8.723,15,6,0,1,0,19.35,Rapido
+Modelia,La Campiña,17,2,3,8.559,13,2,0,0,0,33.87,Medio
+Calle 142,Portal Suba,15,1,2,5.212,15,1,0,0,1,29.75,Medio
+Santa Lucia,El Dorado,23,5,4,14.172,9,0,0,0,0,51.31,Lento
+Simon Bolivar,Patio Bonito,9,1,2,6.986,14,1,0,0,0,17.34,Rapido
+Santa Lucia,Flores,15,3,4,12.281,20,4,1,0,0,47.65,Medio
+General Santander,Portal Usme,10,1,2,4.846,20,3,1,0,1,62.64,Lento
+Calle 63 NQS,Calle 38A Sur,13,2,3,14.293,22,3,0,0,0,30.77,Medio
+CAN,Restrepo,12,4,3,9.103,6,6,1,1,0,26.42,Medio
+Biblioteca Tintal,21 Angeles,19,3,4,10.436,18,1,1,0,0,58.97,Lento
+Calle 45,Alcala,11,2,2,8.796,11,4,0,0,0,19.41,Rapido
+Toberin,Portal Sur,27,5,4,23.522,20,0,1,0,1,66.9,Lento
+Alcala,Aurora,28,6,5,22.379,21,5,0,1,0,60.0,Lento
+Aurora,Prado,25,5,6,21.595,18,6,1,1,0,80.22,Lento
+Calle 142,Restrepo,19,5,4,16.68,9,1,0,0,0,34.89,Medio
+Modelia,Granja,14,4,4,3.015,17,0,1,0,0,38.23,Medio
+Santa Lucia,Flores,15,3,4,12.281,12,2,0,0,0,35.56,Medio
+Av Cali Calle 80,Calle 127,11,4,4,4.529,17,3,1,0,0,32.59,Medio
+Alcala,Calle 63 NQS,11,3,4,6.669,7,3,1,0,0,35.38,Medio
+Marly,Santa Lucia,17,2,3,10.941,8,4,1,0,0,50.36,Lento
+Santa Lucia,Portal Suba,25,4,5,23.22,13,0,0,0,1,65.0,Lento
+Gratamira,Salitre El Greco,11,2,3,6.22,23,5,0,1,0,16.86,Rapido
+Las Aguas,Aurora,18,3,4,9.319,11,4,0,0,0,50.05,Lento
+Nariño,Calle 100 Suba,11,3,4,12.107,14,1,0,0,0,25.62,Medio
+NQS Calle 38A Sur,Salitre El Greco,12,5,4,7.446,15,3,0,0,0,21.54,Rapido
+Calle 106,Prado,4,0,1,2.482,16,0,0,0,0,6.46,Rapido
+Calle 100 Suba,Marsella,12,3,4,5.909,17,6,1,1,0,29.19,Medio
+Portal Americas,Portal Usme,25,3,4,14.322,12,2,0,0,2,80.48,Lento
+Calle 85,Simon Bolivar,7,2,3,2.383,17,0,1,0,0,20.06,Rapido
+Flores,Calle 100 Suba,6,1,2,5.275,7,2,1,0,0,13.4,Rapido
+Calle 45,NQS Calle 38A Sur,11,2,3,5.136,15,2,0,0,0,16.01,Rapido
+La Campiña,Portal 80,11,2,3,5.026,16,6,0,1,1,17.15,Rapido
+Calle 85,Polo,3,1,2,2.999,19,4,1,0,0,6.98,Rapido
+Av 68,Calle 127,11,3,3,6.085,16,4,0,0,0,20.07,Rapido
+Mandalay,NQS Calle 38A Sur,8,1,2,7.071,5,2,0,0,0,15.72,Rapido
+San Victorino,Flores,5,2,2,4.635,23,4,0,0,0,6.87,Rapido
+Calle 38A Sur,Granja,20,3,4,17.506,14,2,0,0,0,46.67,Medio
+Polo,Gratamira,7,1,2,3.108,18,2,1,0,0,18.21,Rapido
+General Santander,Flores,13,2,3,10.912,20,4,1,0,0,34.21,Medio
+Calle 38A Sur,Humedal Cordoba,21,4,5,19.441,5,3,0,0,0,47.23,Medio
+Marly,Portal 80,8,2,3,6.969,15,3,0,0,1,16.44,Rapido
+Suba TV 91,Calle 38A Sur,26,5,5,21.979,14,2,0,0,0,60.09,Lento
+Portal Sur,Las Aguas,13,2,3,6.752,10,3,0,0,1,26.47,Medio
+Portal Usme,Shaio,26,4,5,21.538,12,2,0,0,1,88.29,Lento
+Nariño,Molinos,14,1,2,8.009,8,4,1,0,0,69.29,Lento
+Calle 85,San Facade,11,3,3,6.973,5,5,0,1,0,15.39,Rapido
+Portal 80,Hospitales,12,5,5,11.376,7,6,1,1,1,27.73,Medio
+Pradera,Calle 38A Sur,13,3,4,12.777,14,1,0,0,0,29.86,Medio
+Pepe Sierra,Museo Nacional,10,4,3,9.006,7,3,1,0,0,27.76,Medio
+Normandia,Ricaurte,14,4,3,5.548,21,6,0,1,0,19.21,Rapido
+Molinos,Ricaurte,16,2,3,11.546,7,0,1,0,0,81.21,Lento
+Modelia,Calle 63 NQS,13,3,4,3.559,6,4,1,0,0,40.52,Medio
+Normandia,Marly,9,1,2,4.67,18,0,1,0,0,18.67,Rapido
+Profamilia,Quiroga,11,1,2,6.553,22,4,0,0,0,16.39,Rapido
+Mundo Aventura,Nariño,7,2,3,7.347,19,6,1,1,0,16.18,Rapido
+Calle 45,Minuto de Dios,9,3,3,7.007,5,3,0,0,0,14.95,Rapido
+Calle 106,Calle 19,8,4,3,8.659,9,2,0,0,0,13.86,Rapido
+Consuelo,Quiroga,10,1,2,5.291,20,2,1,0,0,51.03,Lento
+Portal Americas,Las Aguas,15,2,3,7.958,7,2,1,0,1,37.87,Medio
+Aurora,Marsella,17,3,4,14.008,8,5,1,1,0,70.23,Lento
+Flores,Quiroga,11,2,3,9.343,10,4,0,0,0,18.68,Rapido
+Portal Norte,Escuela Militar,14,3,4,9.7,17,5,1,1,1,34.84,Medio
+Polo,Nariño,12,4,4,11.557,5,5,0,1,0,16.94,Rapido
+Socorro,Pepe Sierra,21,5,6,19.191,17,0,1,0,0,75.9,Lento
+Calle 100,Shaio,3,0,1,2.673,8,6,1,1,0,5.17,Rapido
+Mandalay,Centro Memoria,9,1,2,5.617,19,0,1,0,0,23.2,Rapido
+Restrepo,Las Aguas,8,2,3,2.83,17,4,1,0,0,16.68,Rapido
+Modelia,Portal El Dorado,3,0,1,1.57,10,6,0,1,1,3.97,Rapido
+Toberin,Socorro,30,6,5,25.148,7,5,1,1,0,73.04,Lento
+La Campiña,Calle 19,14,3,3,14.279,10,2,0,0,0,27.98,Medio
+Patio Bonito,Suba TV 91,21,3,4,11.879,9,4,0,0,0,43.54,Medio
+Ricaurte,Calle 72,8,2,3,4.989,22,1,0,0,0,14.8,Rapido
+Las Aguas,Portal Americas,15,2,3,7.958,6,6,1,1,1,29.03,Medio
+Calle 38A Sur,Cardio Infantil,26,5,6,23.431,17,4,1,0,0,86.13,Lento
+Portal Usme,Patio Bonito,24,3,4,14.379,19,3,1,0,1,101.16,Lento
+El Dorado,Hospitales,15,4,3,8.687,6,2,1,0,0,35.0,Medio
+Portal El Dorado,Santa Lucia,24,5,4,14.243,20,4,1,0,1,71.69,Lento
+Granja,Salitre El Greco,11,4,4,3.827,16,4,0,0,0,21.88,Rapido
+Portal 80,Salitre El Greco,8,3,4,3.781,11,3,0,0,1,15.75,Rapido
+Flores,Humedal Cordoba,8,1,2,7.032,6,3,1,0,0,19.68,Rapido
+Calle 127,Portal 80,7,3,4,3.616,8,6,1,1,1,17.09,Rapido
+Socorro,Minuto de Dios,20,3,4,17.898,18,1,1,0,0,78.01,Lento
+Consuelo,CAN,23,5,4,15.833,23,2,0,0,0,58.07,Lento
+Calle 63 NQS,Mandalay,8,1,2,5.264,14,2,0,0,0,18.33,Rapido
+Profamilia,Calle 142,15,2,2,11.697,9,6,0,1,0,25.07,Medio
+Gratamira,Calle 34,12,1,2,10.0,9,1,0,0,0,20.3,Rapido
+Flores,Nariño,8,2,3,6.989,20,1,1,0,0,17.82,Rapido
+Patio Bonito,Museo Nacional,12,1,2,6.973,19,0,1,0,0,34.37,Medio
+Calle 127,Normandia,12,3,3,6.438,21,5,0,1,0,19.75,Rapido
+Mundo Aventura,Portal El Dorado,21,4,3,2.342,20,2,1,0,1,61.1,Lento
+Calle 127,Portal El Dorado,15,3,3,8.467,16,6,0,1,1,22.77,Rapido
+De La Sabana,Pepe Sierra,11,4,5,7.635,11,3,0,0,0,25.02,Medio
+Marsella,San Facade,5,0,1,4.683,23,1,0,0,0,7.93,Rapido
+Marsella,Biblioteca Tintal,4,0,1,2.949,6,0,1,0,0,9.85,Rapido
+Aurora,Calle 22,18,2,3,10.8,10,3,0,0,0,52.73,Lento
+Pepe Sierra,Centro Memoria,11,4,3,9.243,9,5,0,1,0,18.51,Rapido
+Gratamira,Calle 127,8,1,2,3.28,16,2,0,0,0,14.82,Rapido
+Calle 63 NQS,Biblioteca Tintal,9,1,2,6.257,17,5,1,1,0,23.05,Rapido
+Escuela Militar,Pepe Sierra,6,3,4,3.13,7,5,1,1,0,13.72,Rapido
+Calle 100 Suba,Calle 34,9,1,2,7.347,23,1,0,0,0,14.26,Rapido
+Alcala,Marsella,16,4,5,9.425,8,6,1,1,0,36.28,Medio
+Calle 100 Suba,Escuela Militar,5,2,3,1.489,17,0,1,0,0,14.45,Rapido
+Las Aguas,Mundo Aventura,11,2,3,5.912,14,1,0,0,0,21.16,Rapido
+Calle 38A Sur,Calle 40 Sur,5,1,2,2.613,7,4,1,0,0,20.94,Rapido
+Calle 63 NQS,Portal 80,5,0,1,3.979,16,5,0,1,1,8.73,Rapido
+Olaya,Toberin,21,4,5,20.384,19,6,1,1,0,49.79,Medio
+Calle 38A Sur,Calle 22,15,2,3,9.274,23,5,0,1,0,28.95,Medio
+Las Aguas,Calle 38A Sur,15,3,4,7.794,12,2,0,0,0,34.15,Medio
+Suba TV 91,Tercer Milenio,16,3,3,14.723,14,6,0,1,0,23.4,Rapido
+Humedal Cordoba,Consuelo,27,5,5,21.254,21,4,0,0,0,67.42,Lento
+Hospitales,Biblioteca Tintal,8,1,2,7.223,12,3,0,0,0,14.98,Rapido
+Suba TV 91,Calle 100 Suba,6,0,1,4.535,21,0,0,0,0,10.67,Rapido
+Calle 34,NQS Calle 38A Sur,9,2,3,3.69,23,3,0,0,0,13.5,Rapido
+Portal Suba,Calle 100 Suba,8,0,1,6.328,5,4,0,0,1,12.0,Rapido
+Av Chile,CAN,8,3,4,1.65,17,4,1,0,0,20.72,Rapido
+Patio Bonito,Pepe Sierra,17,4,5,10.975,17,0,1,0,0,54.41,Lento
+Calle 45,Gratamira,10,1,2,8.599,7,2,1,0,0,24.47,Rapido
+Calle 45,Ricaurte,11,1,2,2.933,15,3,0,0,0,18.39,Rapido
+Calle 100,La Campiña,8,0,1,6.967,18,5,1,1,0,19.21,Rapido
+Flores,Calle 127,8,2,2,6.553,18,0,1,0,0,19.74,Rapido
+La Campiña,Calle 72,10,1,2,9.372,8,0,1,0,0,28.68,Medio
+Calle 63,Pradera,11,3,3,2.939,16,4,0,0,0,20.53,Rapido
+Gobernacion,Calle 63 NQS,8,3,4,0.496,16,1,0,0,0,16.89,Rapido
+Calle 22,Av 68,7,2,2,5.524,15,6,0,1,0,10.18,Rapido
+Gobernacion,Shaio,7,2,3,4.895,7,3,1,0,0,16.94,Rapido
+Pradera,Santa Lucia,12,3,4,12.339,10,2,0,0,0,28.45,Medio
+Shaio,Calle 19,9,3,3,9.905,12,5,0,1,0,14.13,Rapido
+Alcala,Flores,10,2,2,8.121,6,3,1,0,0,26.84,Medio
+Calle 72,Av Cali Calle 80,8,3,3,4.95,22,6,0,1,0,13.94,Rapido
+Patio Bonito,El Dorado,23,4,3,3.91,15,1,0,0,0,47.17,Medio
+Granja,Calle 100 Suba,8,3,3,3.126,23,2,0,0,0,15.61,Rapido
+Biblioteca Tintal,Calle 72,14,3,4,6.989,12,6,0,1,0,22.87,Rapido
+Normandia,Calle 100,9,2,3,4.819,19,6,1,1,0,18.59,Rapido
+Mandalay,Calle 127,16,4,5,9.657,22,3,0,0,0,28.37,Medio
+Santa Lucia,Humedal Cordoba,20,4,5,18.993,12,3,0,0,0,51.35,Lento
+Centro Memoria,Salitre El Greco,9,3,2,5.093,12,1,0,0,0,14.06,Rapido
+Escuela Militar,Salitre El Greco,8,3,4,2.396,16,5,0,1,0,15.4,Rapido
+Marly,21 Angeles,12,1,2,10.068,17,6,1,1,0,24.53,Rapido
+Consuelo,Restrepo,12,1,2,6.852,12,3,0,0,0,39.02,Medio
+Calle 40 Sur,Gratamira,18,3,4,17.76,7,0,1,0,0,63.31,Lento
+Quiroga,Olaya,2,0,1,0.785,16,3,0,0,0,2.05,Rapido
+Calle 142,Prado,3,0,1,1.57,9,5,0,1,0,3.6,Rapido
+Santa Lucia,CAN,18,5,4,13.558,18,5,1,1,0,49.76,Medio
+Gobernacion,Las Aguas,8,4,2,6.106,17,5,1,1,0,17.71,Rapido
+Portal Americas,Granja,18,2,3,7.883,12,0,0,0,1,40.61,Medio
+Simon Bolivar,Calle 146,14,3,4,9.046,9,0,0,0,0,28.11,Medio
+Olaya,Calle 22,9,1,2,5.094,22,2,0,0,0,13.27,Rapido
+La Campiña,Portal Norte,18,1,2,5.59,13,6,0,1,1,25.98,Medio
+Humedal Cordoba,Tercer Milenio,13,3,3,12.107,6,1,1,0,0,33.57,Medio
+Calle 127,Flores,8,2,2,6.553,16,3,0,0,0,14.79,Rapido
+Gobernacion,Calle 72,3,1,2,1.132,5,3,0,0,0,3.45,Rapido
+San Facade,Flores,7,2,3,4.147,8,3,1,0,0,14.75,Rapido
+Calle 22,Alcala,11,3,3,11.588,6,6,1,1,0,24.4,Rapido
+Centro Memoria,Normandia,11,3,2,6.059,16,5,0,1,0,18.76,Rapido
+Simon Bolivar,Socorro,13,2,3,13.893,13,6,0,1,0,29.47,Medio
+Centro Memoria,Portal 80,10,4,4,8.817,9,0,0,0,1,21.15,Rapido
+Marly,Calle 22,4,0,1,2.127,6,3,1,0,0,7.43,Rapido
+Polo,Nariño,12,4,4,11.557,20,0,1,0,0,28.32,Medio
+Modelia,De La Sabana,16,4,3,4.335,10,2,0,0,0,30.53,Medio
+Av Cali Calle 80,Toberin,17,4,4,8.304,12,5,0,1,0,31.76,Medio
+San Facade,Portal Sur,10,1,2,7.588,6,0,1,0,1,25.13,Medio
+Centro Memoria,Restrepo,5,1,2,4.398,12,5,0,1,0,7.47,Rapido
+Aurora,Museo Nacional,16,2,3,11.125,16,3,0,0,0,46.31,Medio
+Santa Lucia,Prado,21,5,6,19.618,15,3,0,0,0,45.77,Medio
+Suba TV 91,El Dorado,17,2,3,8.073,5,6,0,1,0,24.08,Rapido
+Portal Suba,Restrepo,21,4,4,18.843,16,6,0,1,1,31.39,Medio
+Calle 63,Calle 142,10,2,2,8.121,12,5,0,1,0,16.95,Rapido
+CAN,El Dorado,6,0,1,3.568,23,6,0,1,0,8.62,Rapido
+Calle 72,Ferias,5,3,3,4.647,23,2,0,0,0,10.52,Rapido
+Socorro,Av 68,22,5,4,14.763,16,4,0,0,0,52.77,Lento
+Cardio Infantil,Pradera,18,4,5,11.282,22,2,0,0,0,31.24,Medio
+CAN,Escuela Militar,7,3,4,2.442,12,0,0,0,0,12.31,Rapido
+Toberin,Centro Memoria,18,4,3,15.201,9,2,0,0,0,37.8,Medio
+Mandalay,CAN,16,4,3,4.468,5,1,0,0,0,29.52,Medio
+Calle 19,Restrepo,7,1,2,3.973,16,0,0,0,0,11.31,Rapido
+Nariño,Socorro,10,1,2,6.335,8,2,1,0,0,35.35,Medio
+Calle 63,Polo,4,1,2,4.319,20,5,1,1,0,8.13,Rapido
+San Victorino,Toberin,18,5,3,16.436,16,1,0,0,0,37.49,Medio
+Museo Nacional,La Campiña,15,3,3,13.632,14,1,0,0,0,25.17,Medio
+Shaio,Nariño,14,4,4,12.987,23,0,0,0,0,21.29,Rapido
+Toberin,El Dorado,20,3,3,12.104,23,0,0,0,0,36.88,Medio
+Calle 100 Suba,Ferias,6,3,3,2.669,16,2,0,0,0,13.98,Rapido
+Calle 127,Marly,10,2,2,7.893,19,0,1,0,0,22.33,Rapido
+Calle 100,Minuto de Dios,6,3,3,5.449,13,6,0,1,0,9.25,Rapido
+NQS Calle 38A Sur,Portal 80,9,0,1,11.208,18,1,1,0,1,31.03,Medio
+Museo Nacional,Minuto de Dios,11,5,4,8.841,22,3,0,0,0,18.54,Rapido
+Shaio,El Dorado,13,2,3,5.743,10,3,0,0,0,25.86,Medio
+Hospitales,Aurora,13,1,2,8.164,15,2,0,0,0,40.73,Medio
+Calle 63 NQS,Museo Nacional,7,2,3,4.778,10,5,0,1,0,11.58,Rapido
+Calle 127,Marsella,14,4,5,8.014,20,5,1,1,0,37.01,Medio
+Calle 63 NQS,Tercer Milenio,5,1,2,6.89,18,1,1,0,0,12.32,Rapido
+Cardio Infantil,Olaya,22,5,4,19.252,22,5,0,1,0,36.72,Medio
+Heroes,Humedal Cordoba,5,0,1,5.511,12,0,0,0,0,8.72,Rapido
+Portal Usme,Calle 45,23,4,4,15.026,6,2,1,0,1,84.14,Lento
+Yomasa,Suba TV 91,26,4,5,23.089,20,1,1,0,0,82.29,Lento
+Hospitales,Calle 106,10,3,4,10.951,20,6,1,1,0,23.64,Rapido
+Portal Suba,Portal Usme,34,5,5,26.42,13,0,0,0,2,97.09,Lento
+Mundo Aventura,Museo Nacional,9,1,2,4.957,16,1,0,0,0,15.65,Rapido
+Portal Norte,Gobernacion,15,3,3,12.057,12,6,0,1,1,21.36,Rapido
+Calle 142,Calle 106,6,0,1,4.051,16,6,0,1,0,9.76,Rapido
+Socorro,Escuela Militar,16,2,3,17.012,22,0,0,0,0,43.09,Medio
+Patio Bonito,Ricaurte,8,0,1,5.933,20,4,1,0,0,23.39,Rapido
+Calle 106,Nariño,13,5,4,11.844,6,4,1,0,0,32.07,Medio
+Shaio,Virrey,4,1,2,3.175,9,0,0,0,0,7.04,Rapido
+Calle 63 NQS,De La Sabana,4,1,2,3.204,11,1,0,0,0,6.69,Rapido
+Polo,Centro Memoria,9,3,3,8.085,9,6,0,1,0,12.52,Rapido
+Calle 100,Calle 127,4,0,1,2.155,17,4,1,0,0,8.65,Rapido
+Gratamira,Quiroga,19,4,4,16.984,19,6,1,1,0,36.23,Medio
+Socorro,Quiroga,7,1,2,3.985,18,0,1,0,0,28.53,Medio
+Socorro,Simon Bolivar,13,2,3,13.893,8,0,1,0,0,47.15,Medio
+Heroes,Ricaurte,11,3,3,5.236,16,3,0,0,0,18.25,Rapido
+Shaio,Tercer Milenio,12,3,3,11.324,20,0,1,0,0,26.91,Medio
+Virrey,Tercer Milenio,11,2,2,8.926,17,0,1,0,0,26.13,Medio
+Ferias,Biblioteca Tintal,14,2,3,6.21,20,2,1,0,0,42.78,Medio
+Humedal Cordoba,La Campiña,5,0,1,3.69,13,6,0,1,0,6.76,Rapido
+Calle 142,Escuela Militar,10,3,4,5.73,9,2,0,0,0,22.81,Rapido
+Mandalay,Granja,15,2,3,5.657,18,4,1,0,0,44.58,Medio
+De La Sabana,Olaya,6,2,3,6.993,20,6,1,1,0,11.56,Rapido
+CAN,Profamilia,6,3,2,4.362,10,0,0,0,0,10.48,Rapido
+Calle 38A Sur,Restrepo,8,1,2,4.964,23,0,0,0,0,19.5,Rapido
+Centro Memoria,CAN,8,3,2,4.855,12,0,0,0,0,14.13,Rapido
+Centro Memoria,Gratamira,13,3,3,11.167,16,6,0,1,0,18.85,Rapido
+Calle 22,Av 68,7,2,2,5.524,12,2,0,0,0,12.68,Rapido
+Portal Suba,Socorro,29,5,5,24.207,22,2,0,0,1,62.25,Lento
+Gobernacion,Calle 127,8,3,3,5.627,14,0,0,0,0,13.83,Rapido
+Shaio,De La Sabana,11,3,4,7.551,12,5,0,1,0,20.25,Rapido
+Olaya,Profamilia,10,1,2,5.769,5,6,0,1,0,12.91,Rapido
+Alcala,Portal Suba,14,1,2,5.511,9,5,0,1,1,25.78,Medio
+El Dorado,General Santander,21,4,3,12.949,14,5,0,1,0,40.83,Medio
+Pepe Sierra,Museo Nacional,10,4,3,9.006,16,3,0,0,0,17.69,Rapido
+Quiroga,Virrey,14,3,4,12.957,17,4,1,0,0,37.85,Medio
+Mundo Aventura,San Victorino,10,2,3,5.218,14,2,0,0,0,18.89,Rapido
+Marsella,Gratamira,15,3,4,7.97,15,6,0,1,0,26.42,Medio
+Humedal Cordoba,Cardio Infantil,12,1,2,4.876,9,4,0,0,0,26.06,Medio
+Suba TV 91,Normandia,15,2,3,7.504,15,5,0,1,0,23.42,Rapido
+Pradera,Hospitales,4,1,2,6.435,13,3,0,0,0,7.34,Rapido
+Simon Bolivar,Shaio,9,2,3,5.48,11,2,0,0,0,19.23,Rapido
+Ricaurte,Portal Suba,16,2,3,14.403,16,4,0,0,1,32.52,Medio
+San Victorino,Calle 85,9,3,2,7.458,14,0,0,0,0,15.9,Rapido
+San Victorino,Calle 85,9,3,2,7.458,15,5,0,1,0,12.7,Rapido
+La Campiña,Patio Bonito,22,3,4,12.576,15,2,0,0,0,45.43,Medio
+Calle 22,Portal Suba,14,2,3,14.783,6,6,1,1,1,32.09,Medio
+Virrey,Calle 100 Suba,3,1,2,2.203,20,1,1,0,0,6.67,Rapido
+Museo Nacional,Restrepo,6,1,2,4.637,14,3,0,0,0,9.11,Rapido
+Calle 38A Sur,Centro Memoria,12,2,3,9.362,15,3,0,0,0,33.26,Medio
+Portal El Dorado,Calle 40 Sur,21,4,3,12.357,15,6,0,1,1,35.35,Medio
+Portal Usme,Marly,24,2,3,14.364,10,2,0,0,1,69.77,Lento
+Gratamira,Consuelo,28,5,5,22.12,10,4,0,0,0,76.53,Lento
+Calle 127,Calle 34,11,2,2,8.668,18,5,1,1,0,23.92,Rapido
+Portal Sur,NQS Calle 38A Sur,9,1,2,5.9,5,0,0,0,1,18.32,Rapido
+Alcala,Mandalay,18,4,5,10.973,21,1,0,0,0,31.01,Medio
+Flores,El Dorado,9,1,2,5.301,16,2,0,0,0,15.7,Rapido
+Socorro,La Campiña,26,4,5,23.423,10,0,0,0,0,67.01,Lento
+Hospitales,Portal El Dorado,16,4,3,8.966,21,4,0,0,1,27.1,Medio
+Calle 38A Sur,Marsella,14,3,4,12.614,20,2,1,0,0,47.46,Medio
+Normandia,Aurora,25,5,4,15.998,12,1,0,0,0,62.78,Lento
+Aurora,Socorro,3,0,1,0.948,21,1,0,0,0,8.98,Rapido
+Av Cali Calle 80,Museo Nacional,13,5,4,8.635,13,6,0,1,0,19.88,Rapido
+Biblioteca Tintal,Calle 146,21,4,5,13.143,5,0,0,0,0,42.33,Medio
+Museo Nacional,Calle 22,3,0,1,0.333,22,2,0,0,0,2.61,Rapido
+Yomasa,Alcala,25,5,6,22.021,14,3,0,0,0,71.05,Lento
+Granja,Virrey,8,3,3,4.742,9,3,0,0,0,16.61,Rapido
+Virrey,Calle 22,7,1,2,7.081,14,0,0,0,0,12.81,Rapido
+Tercer Milenio,Centro Memoria,2,0,1,1.939,13,6,0,1,0,1.18,Rapido
+Olaya,Hospitales,4,0,1,2.465,10,0,0,0,0,6.6,Rapido
+Portal Sur,Marly,16,1,2,10.356,12,0,0,0,1,26.23,Medio
+Calle 19,Shaio,9,3,3,9.905,20,1,1,0,0,26.46,Medio
+Calle 100 Suba,Calle 142,8,1,2,4.249,13,5,0,1,0,14.81,Rapido
+Hospitales,Gobernacion,9,4,3,7.218,19,0,1,0,0,17.59,Rapido
+Av Chile,Hospitales,5,0,1,8.994,16,6,0,1,0,8.31,Rapido
+Calle 19,Calle 142,13,4,3,12.71,6,0,1,0,0,38.62,Medio
+Calle 63 NQS,Marly,12,2,3,3.038,16,3,0,0,0,22.11,Rapido
+Calle 127,Mundo Aventura,15,4,5,8.897,15,1,0,0,0,31.4,Medio
+Portal El Dorado,Granja,16,4,4,3.731,17,5,1,1,1,46.85,Medio
+Calle 63 NQS,Calle 19,8,2,3,5.442,9,5,0,1,0,14.37,Rapido
+Calle 63,Calle 146,11,2,2,8.796,18,4,1,0,0,28.91,Medio
+Portal 80,Calle 85,4,2,3,3.771,17,6,1,1,1,8.03,Rapido
+Calle 34,Portal Sur,15,1,2,9.581,20,0,1,0,1,41.3,Medio
+Calle 100,Gobernacion,5,2,3,3.526,15,0,0,0,0,8.69,Rapido
+Shaio,Santa Lucia,21,5,5,18.226,12,5,0,1,0,42.94,Medio
+Virrey,Calle 142,8,0,1,5.292,18,5,1,1,0,19.76,Rapido
+NQS Calle 38A Sur,Calle 45,9,4,4,5.136,22,4,0,0,0,14.05,Rapido
+Calle 63,Prado,8,2,2,6.553,20,6,1,1,0,15.89,Rapido
+Portal Usme,Mandalay,22,3,4,14.898,12,2,0,0,1,73.71,Lento
+El Dorado,San Facade,15,4,3,6.958,17,3,1,0,0,38.35,Medio
+Portal 80,Shaio,6,2,3,1.266,19,0,1,0,1,19.42,Rapido
+Calle 22,Pradera,9,1,2,4.342,5,0,0,0,0,12.22,Rapido
+San Facade,21 Angeles,14,3,4,12.583,7,6,1,1,0,35.0,Medio
+Humedal Cordoba,Profamilia,10,3,3,9.721,22,1,0,0,0,17.89,Rapido
+Marsella,Molinos,19,3,4,14.657,6,6,1,1,0,62.75,Lento
+San Victorino,Virrey,10,3,2,8.238,20,5,1,1,0,22.91,Rapido
+Calle 19,Calle 142,13,4,3,12.71,12,0,0,0,0,26.35,Medio
+Hospitales,San Facade,3,1,2,1.998,21,2,0,0,0,3.99,Rapido
+Calle 63 NQS,Pradera,5,1,2,2.555,9,6,0,1,0,8.76,Rapido
+Calle 146,General Santander,24,5,4,20.493,11,1,0,0,0,47.04,Medio
+De La Sabana,Portal El Dorado,18,4,3,5.329,11,5,0,1,1,31.41,Medio
+Av Chile,Socorro,15,2,3,16.17,8,6,1,1,0,48.23,Medio
+Socorro,Prado,23,5,6,20.661,9,3,0,0,0,58.21,Lento
+San Facade,Polo,7,1,2,8.684,23,3,0,0,0,14.46,Rapido
+Calle 72,Simon Bolivar,7,2,3,1.099,10,5,0,1,0,12.65,Rapido
+Suba TV 91,Tercer Milenio,16,3,3,14.723,15,4,0,0,0,30.98,Medio
+Tercer Milenio,Flores,6,1,2,5.312,13,3,0,0,0,10.59,Rapido
+Portal Americas,Calle 38A Sur,19,3,4,12.269,9,3,0,0,1,50.26,Lento
+Profamilia,Humedal Cordoba,12,1,2,9.721,22,6,0,1,0,15.64,Rapido
+San Facade,Yomasa,14,2,3,9.773,11,1,0,0,0,39.59,Medio
+Minuto de Dios,Calle 34,11,3,3,8.097,10,4,0,0,0,22.13,Rapido
+Calle 19,Modelia,10,3,2,6.773,22,3,0,0,0,18.57,Rapido
+Patio Bonito,Ricaurte,8,0,1,5.933,14,6,0,1,0,11.59,Rapido
+Calle 146,Av 68,15,3,3,8.841,17,1,1,0,0,33.52,Medio
+Granja,Calle 63,8,3,3,5.73,14,5,0,1,0,14.99,Rapido
+Hospitales,Consuelo,14,1,2,8.524,22,0,0,0,0,40.36,Medio
+Toberin,San Victorino,18,5,3,16.436,12,5,0,1,0,31.47,Medio
+Profamilia,Heroes,8,0,1,4.49,6,3,1,0,0,17.59,Rapido
+Las Aguas,San Facade,6,2,3,0.948,6,0,1,0,0,12.63,Rapido
+Portal 80,El Dorado,12,3,4,4.507,16,6,0,1,1,21.13,Rapido
+Centro Memoria,Cardio Infantil,17,4,3,14.069,14,3,0,0,0,31.66,Medio
+Calle 85,Calle 72,3,0,1,1.373,21,0,0,0,0,3.58,Rapido
+San Victorino,Gobernacion,7,4,2,5.678,9,1,0,0,0,11.46,Rapido
+Marly,Portal Norte,17,2,2,14.403,9,0,0,0,1,30.25,Medio
+Biblioteca Tintal,Yomasa,19,3,4,13.189,14,3,0,0,0,54.39,Lento
+Calle 100 Suba,Las Aguas,11,4,3,10.101,21,1,0,0,0,19.94,Rapido
+Prado,Calle 63,8,2,2,6.553,18,4,1,0,0,19.78,Rapido
+El Dorado,De La Sabana,17,4,3,4.794,15,2,0,0,0,30.2,Medio
+Virrey,Restrepo,14,3,3,11.388,20,4,1,0,0,38.7,Medio
+Alcala,Calle 19,12,4,3,11.925,16,3,0,0,0,23.2,Rapido
+Virrey,Flores,6,0,1,3.614,6,5,1,1,0,12.04,Rapido
+Calle 19,NQS Calle 38A Sur,6,2,3,2.005,13,4,0,0,0,9.29,Rapido
+Quiroga,Mundo Aventura,10,2,3,9.372,21,6,0,1,0,14.42,Rapido
+Hospitales,Cardio Infantil,17,3,4,16.789,15,4,0,0,0,32.86,Medio
+Ricaurte,21 Angeles,13,2,3,11.779,7,1,1,0,0,42.41,Medio
+Pepe Sierra,Calle 146,6,0,1,3.714,11,4,0,0,0,11.39,Rapido
+Polo,Calle 100 Suba,4,1,2,1.143,9,0,0,0,0,7.93,Rapido
+Calle 127,Calle 100 Suba,5,1,2,2.342,6,1,1,0,0,13.52,Rapido
+Shaio,Escuela Militar,6,2,3,2.231,13,3,0,0,0,12.87,Rapido
+Polo,Las Aguas,10,4,3,9.598,5,3,0,0,0,17.21,Rapido
+Virrey,Calle 100,2,0,1,0.785,23,0,0,0,0,1.78,Rapido
+Prado,Calle 146,4,0,1,2.245,14,6,0,1,0,4.71,Rapido
+Heroes,Portal 80,3,1,2,4.465,17,3,1,0,1,8.31,Rapido
+Calle 63,Ricaurte,9,3,3,4.329,12,1,0,0,0,16.13,Rapido
+Salitre El Greco,Hospitales,11,4,3,7.6,9,2,0,0,0,20.74,Rapido
+Mundo Aventura,Alcala,17,4,5,10.258,22,6,0,1,0,26.31,Medio
+21 Angeles,Shaio,4,0,1,2.598,17,4,1,0,0,7.92,Rapido
+Consuelo,Minuto de Dios,23,3,4,19.059,11,3,0,0,0,76.84,Lento
+Calle 40 Sur,Calle 63,13,3,3,10.912,10,1,0,0,0,23.03,Rapido
+Calle 19,Calle 85,7,2,2,6.633,23,6,0,1,0,8.21,Rapido
+San Facade,Portal Norte,19,4,5,17.193,22,0,0,0,1,33.69,Medio
+Calle 142,Centro Memoria,15,4,3,12.281,23,3,0,0,0,27.16,Medio
+Ferias,Calle 142,11,4,4,6.526,14,4,0,0,0,21.92,Rapido
+Portal Usme,Portal Americas,25,3,4,14.322,15,4,0,0,2,85.97,Lento
+Calle 45,Santa Lucia,18,2,3,11.606,23,2,0,0,0,37.53,Medio
+Calle 63 NQS,21 Angeles,11,2,3,7.032,15,1,0,0,0,24.84,Rapido
+Polo,Gratamira,7,1,2,3.108,16,1,0,0,0,14.33,Rapido
+Portal Sur,Portal Norte,26,4,5,24.759,19,2,1,0,2,84.32,Lento
+Calle 146,Calle 72,10,2,2,8.121,7,6,1,1,0,21.34,Rapido
+Ricaurte,Centro Memoria,4,1,2,1.005,13,5,0,1,0,5.0,Rapido
+Calle 100 Suba,Aurora,24,5,5,19.307,21,5,0,1,0,47.54,Medio
+Normandia,Socorro,23,5,4,15.129,11,0,0,0,0,55.12,Lento
+Salitre El Greco,Portal Suba,15,2,3,9.61,9,2,0,0,1,31.09,Medio
+Socorro,Hospitales,11,1,2,7.228,9,3,0,0,0,28.74,Medio
+Molinos,Prado,27,5,6,22.324,5,5,0,1,0,68.51,Lento
+Toberin,Calle 63 NQS,15,3,4,10.339,21,1,0,0,0,26.53,Medio
+Santa Lucia,Calle 40 Sur,4,1,2,2.155,20,2,1,0,0,13.81,Rapido
+Escuela Militar,Calle 100,4,2,3,2.264,13,2,0,0,0,8.09,Rapido
+Quiroga,Molinos,11,1,2,5.672,17,3,1,0,0,69.6,Lento
+Av Chile,Mandalay,9,1,2,5.773,8,5,1,1,0,26.2,Medio
+Gratamira,Gobernacion,9,2,3,6.609,23,4,0,0,0,15.13,Rapido
+Museo Nacional,Molinos,18,2,3,11.86,23,5,0,1,0,46.28,Medio
+General Santander,Museo Nacional,10,1,2,7.774,12,4,0,0,0,19.12,Rapido
+Minuto de Dios,Portal Usme,29,7,6,20.017,20,4,1,0,1,113.59,Lento
+Portal 80,Calle 63 NQS,5,0,1,3.979,12,0,0,0,1,9.42,Rapido
+Calle 45,Calle 85,6,0,1,3.505,10,2,0,0,0,9.84,Rapido
+Escuela Militar,Patio Bonito,12,1,2,7.855,15,5,0,1,0,22.37,Rapido
+Portal Sur,Consuelo,7,0,1,2.969,23,1,0,0,1,27.07,Medio
+Flores,Av Chile,7,2,3,3.126,9,4,0,0,0,12.23,Rapido
+Profamilia,Av Chile,11,2,3,5.799,23,1,0,0,0,16.09,Rapido
+Calle 85,Quiroga,15,3,3,12.172,17,4,1,0,0,40.94,Medio
+Heroes,Calle 106,3,1,2,3.157,11,3,0,0,0,4.66,Rapido
+Portal Sur,Calle 63 NQS,11,1,2,13.265,12,6,0,1,1,18.31,Rapido
+Simon Bolivar,Calle 85,7,2,3,2.383,21,2,0,0,0,12.62,Rapido
+Portal El Dorado,Suba TV 91,18,2,3,8.454,23,0,0,0,1,30.82,Medio
+Calle 146,Aurora,30,6,5,23.838,11,4,0,0,0,78.82,Lento
+Patio Bonito,Calle 45,16,3,3,7.146,8,1,1,0,0,43.26,Medio
+Av Cali Calle 80,Ricaurte,11,1,2,8.469,21,6,0,1,0,16.61,Rapido
+Calle 34,Tercer Milenio,7,0,1,3.204,22,6,0,1,0,6.91,Rapido
+Polo,Quiroga,15,4,4,13.877,18,2,1,0,0,42.13,Medio
+Pepe Sierra,Escuela Militar,6,3,4,3.13,20,6,1,1,0,14.45,Rapido
+Shaio,Calle 142,9,1,2,3.847,18,1,1,0,0,24.2,Rapido
+Calle 106,Heroes,3,1,2,3.157,22,3,0,0,0,3.68,Rapido
+21 Angeles,Shaio,4,0,1,2.598,21,0,0,0,0,5.46,Rapido
+Consuelo,Las Aguas,19,3,4,9.68,18,2,1,0,0,68.41,Lento
+Simon Bolivar,General Santander,9,1,2,11.498,13,6,0,1,0,15.41,Rapido
+Toberin,Gratamira,14,1,2,5.416,17,6,1,1,0,28.56,Medio
+San Victorino,Portal Sur,12,2,3,7.126,10,2,0,0,1,23.72,Rapido
+La Campiña,Shaio,6,0,1,4.495,16,6,0,1,0,8.77,Rapido
+Calle 22,Escuela Militar,7,3,4,7.394,19,6,1,1,0,14.91,Rapido
+De La Sabana,Profamilia,9,1,2,1.734,17,6,1,1,0,15.26,Rapido
+Biblioteca Tintal,Calle 63,15,3,3,6.678,17,5,1,1,0,28.95,Medio
+Calle 40 Sur,Portal Suba,22,3,4,21.139,18,0,1,0,1,57.6,Lento
+Calle 106,Tercer Milenio,11,4,3,10.167,6,5,1,1,0,24.49,Rapido
+Toberin,Quiroga,24,5,4,21.168,14,5,0,1,0,41.19,Medio
+Calle 72,Pradera,12,3,3,3.236,19,0,1,0,0,27.54,Medio
+Quiroga,Heroes,14,3,3,11.04,11,0,0,0,0,25.67,Medio
+Escuela Militar,Toberin,13,3,4,8.498,10,5,0,1,0,21.84,Rapido
+21 Angeles,Calle 63,9,1,2,8.081,7,2,1,0,0,23.91,Rapido
+Nariño,Normandia,14,4,3,9.153,23,1,0,0,0,24.07,Rapido
+Calle 100,Calle 127,4,0,1,2.155,22,2,0,0,0,6.29,Rapido
+Simon Bolivar,Minuto de Dios,8,1,2,5.73,16,6,0,1,0,13.31,Rapido
+Cardio Infantil,Portal El Dorado,20,3,3,11.654,17,4,1,0,1,46.86,Medio
+Prado,Calle 146,4,0,1,2.245,22,0,0,0,0,4.96,Rapido
+Calle 19,Profamilia,3,0,1,1.013,13,4,0,0,0,3.8,Rapido
+Portal 80,Museo Nacional,9,4,4,8.621,23,3,0,0,1,17.09,Rapido
+Portal El Dorado,Socorro,26,5,4,15.134,5,3,0,0,1,48.04,Medio
+El Dorado,Escuela Militar,12,3,4,4.131,15,3,0,0,0,26.31,Medio
+Alcala,Gobernacion,10,3,3,7.161,12,2,0,0,0,18.82,Rapido
+Marsella,Calle 100 Suba,12,3,4,5.909,22,1,0,0,0,23.85,Rapido
+Shaio,Granja,9,3,3,2.93,10,5,0,1,0,19.68,Rapido
+Pradera,Centro Memoria,6,1,2,4.189,12,5,0,1,0,8.54,Rapido
+Escuela Militar,Centro Memoria,8,2,3,7.269,12,6,0,1,0,11.82,Rapido
+Calle 146,Calle 22,13,3,3,13.048,7,5,1,1,0,34.54,Medio
+21 Angeles,Salitre El Greco,12,2,3,6.994,6,6,1,1,0,25.59,Medio
+Pradera,Shaio,12,3,4,6.085,13,3,0,0,0,27.0,Medio
+Profamilia,Gratamira,13,1,2,10.643,17,1,1,0,0,31.91,Medio
+Restrepo,Pepe Sierra,13,4,5,13.641,20,4,1,0,0,35.03,Medio
+Calle 72,Portal El Dorado,10,1,2,5.998,8,5,1,1,1,22.71,Rapido
+Alcala,Consuelo,29,6,5,22.738,17,4,1,0,0,93.26,Lento
+Gobernacion,Calle 85,5,1,2,2.121,22,2,0,0,0,6.61,Rapido
+Toberin,Marsella,20,4,5,12.909,16,1,0,0,0,41.54,Medio
+Mundo Aventura,Molinos,20,3,4,14.386,17,2,1,0,0,87.57,Lento
+Shaio,Escuela Militar,6,2,3,2.231,8,5,1,1,0,14.34,Rapido
+Polo,Museo Nacional,8,3,3,7.883,11,1,0,0,0,15.55,Rapido
+Portal Suba,Alcala,14,1,2,5.511,10,3,0,0,1,30.97,Medio
+Yomasa,Quiroga,8,1,2,4.564,22,5,0,1,0,21.76,Rapido
+General Santander,San Victorino,11,2,3,6.343,23,0,0,0,0,18.75,Rapido
+CAN,De La Sabana,12,4,3,2.886,13,3,0,0,0,20.63,Rapido
+Marly,Gobernacion,5,1,2,2.653,16,2,0,0,0,7.74,Rapido
+General Santander,Minuto de Dios,16,2,3,15.697,5,3,0,0,0,32.17,Medio
+Tercer Milenio,Centro Memoria,2,0,1,1.939,23,4,0,0,0,1.43,Rapido
+Heroes,Modelia,9,1,2,4.556,15,5,0,1,0,15.43,Rapido
+Portal Americas,Calle 106,17,4,5,11.123,17,4,1,0,1,51.15,Lento
+Calle 40 Sur,Calle 63 NQS,9,1,2,11.698,15,3,0,0,0,19.55,Rapido
+Calle 100 Suba,Calle 106,3,1,2,1.723,10,2,0,0,0,4.3,Rapido
+Hospitales,Granja,11,1,2,11.226,17,2,1,0,0,38.03,Medio
+Molinos,Socorro,5,0,1,1.713,21,3,0,0,0,18.19,Rapido
+Aurora,Calle 34,20,2,3,12.148,12,5,0,1,0,47.57,Medio
+Calle 106,Consuelo,25,6,5,19.472,10,3,0,0,0,58.82,Lento
+Portal Suba,San Facade,19,4,4,15.228,6,0,1,0,1,52.79,Lento
+Calle 106,Calle 146,7,0,1,4.726,13,4,0,0,0,12.47,Rapido
+NQS Calle 38A Sur,La Campiña,17,2,3,16.233,12,1,0,0,0,39.41,Medio
+Calle 34,Restrepo,10,1,2,5.66,10,0,0,0,0,14.47,Rapido
+Mandalay,Portal Suba,21,3,4,11.886,19,6,1,1,1,49.53,Medio
+Portal 80,Calle 38A Sur,21,6,6,17.871,22,1,0,0,1,43.81,Medio
+Santa Lucia,Polo,15,2,3,16.764,21,5,0,1,0,29.3,Medio
+Minuto de Dios,Portal Sur,21,6,5,16.442,22,1,0,0,1,40.87,Medio
+Molinos,Olaya,12,1,2,6.45,13,1,0,0,0,41.22,Medio
+Calle 38A Sur,Minuto de Dios,19,3,4,17.377,14,3,0,0,0,49.88,Medio
+Portal Usme,Portal Sur,9,0,1,4.081,14,0,0,0,2,47.97,Medio
+Suba TV 91,Escuela Militar,10,2,3,5.639,5,4,0,0,0,18.31,Rapido
+San Victorino,Polo,9,4,3,9.113,17,1,1,0,0,21.57,Rapido
+NQS Calle 38A Sur,Museo Nacional,5,2,3,2.673,12,2,0,0,0,7.85,Rapido
+Quiroga,Toberin,22,4,5,21.168,13,2,0,0,0,48.95,Medio
+Granja,Olaya,18,6,5,13.542,11,6,0,1,0,24.96,Rapido
+Calle 19,Portal El Dorado,12,3,2,7.575,19,2,1,0,1,33.54,Medio
+Mandalay,Aurora,19,3,4,13.693,9,0,0,0,0,54.13,Lento
+Calle 146,Heroes,9,1,2,7.883,13,1,0,0,0,18.63,Rapido
+Escuela Militar,Calle 127,7,3,4,3.69,9,0,0,0,0,14.47,Rapido
+La Campiña,Pradera,17,3,4,10.101,16,3,0,0,0,35.61,Medio
+Calle 106,Calle 40 Sur,17,5,4,14.982,6,2,1,0,0,42.81,Medio
+Portal Suba,Calle 85,11,1,2,9.095,11,6,0,1,1,16.28,Rapido
+Alcala,Calle 22,11,3,3,11.588,12,3,0,0,0,22.7,Rapido
+Av Cali Calle 80,Centro Memoria,14,5,4,8.814,19,5,1,1,0,36.79,Medio
+Consuelo,Portal Suba,30,4,5,25.42,17,5,1,1,1,121.46,Lento
+Calle 63,Yomasa,19,4,4,14.684,6,5,1,1,0,65.68,Lento
+General Santander,Portal Sur,2,0,1,0.785,14,1,0,0,1,2.8,Rapido
+De La Sabana,Calle 19,7,1,2,2.515,12,5,0,1,0,8.85,Rapido
+Gratamira,Simon Bolivar,11,2,3,7.208,8,3,1,0,0,31.51,Medio
+Av Chile,Simon Bolivar,3,0,1,2.355,20,5,1,1,0,5.67,Rapido
+Calle 127,Flores,8,2,2,6.553,10,3,0,0,0,13.75,Rapido
+Yomasa,CAN,21,5,4,15.141,6,2,1,0,0,76.73,Lento
+Calle 146,Calle 34,15,2,2,11.697,20,1,1,0,0,37.33,Medio
+Minuto de Dios,Portal 80,3,0,1,2.531,11,0,0,0,1,4.63,Rapido
+Calle 38A Sur,General Santander,4,1,2,1.831,6,3,1,0,0,17.71,Rapido
+Salitre El Greco,Portal Usme,26,5,4,16.934,11,4,0,0,1,73.95,Lento
+Portal Norte,Gratamira,15,1,2,6.47,22,1,0,0,1,23.98,Rapido
+Hospitales,Gobernacion,9,4,3,7.218,22,2,0,0,0,13.9,Rapido
+Prado,Museo Nacional,12,4,3,10.475,10,0,0,0,0,22.96,Rapido
+Virrey,Ferias,6,3,3,4.093,15,5,0,1,0,11.6,Rapido
+NQS Calle 38A Sur,Cardio Infantil,18,3,4,16.499,21,5,0,1,0,33.14,Medio
+Toberin,Heroes,11,1,2,10.128,15,3,0,0,0,20.6,Rapido
+Quiroga,Calle 100,13,3,4,13.741,6,6,1,1,0,32.54,Medio
+Av Cali Calle 80,Centro Memoria,14,5,4,8.814,8,3,1,0,0,33.26,Medio
+NQS Calle 38A Sur,Portal Usme,17,2,3,9.941,21,4,0,0,1,56.91,Lento
+Molinos,El Dorado,29,5,4,16.53,7,0,1,0,0,114.44,Lento
+Portal Usme,Calle 106,25,5,6,20.552,19,6,1,1,1,91.34,Lento
+Patio Bonito,Mundo Aventura,4,0,1,2.886,6,6,1,1,0,7.5,Rapido
+Calle 100 Suba,Humedal Cordoba,3,0,1,1.793,7,1,1,0,0,5.76,Rapido
+Escuela Militar,Ricaurte,5,0,1,7.105,17,1,1,0,0,12.74,Rapido
+Santa Lucia,Yomasa,4,0,1,1.632,10,4,0,0,0,14.67,Rapido
+Calle 146,Shaio,10,1,2,4.407,16,5,0,1,0,17.88,Rapido
+Calle 146,Calle 63 NQS,13,3,4,8.112,10,4,0,0,0,26.08,Medio
+Calle 63,Ricaurte,9,3,3,4.329,19,2,1,0,0,22.23,Rapido
+Mandalay,Mundo Aventura,2,0,1,0.915,18,6,1,1,0,2.42,Rapido
+Mandalay,Tercer Milenio,8,2,3,6.438,12,4,0,0,0,15.67,Rapido
+San Facade,General Santander,9,1,2,6.804,16,3,0,0,0,17.01,Rapido
+Av Cali Calle 80,Heroes,7,2,2,4.866,5,4,0,0,0,13.87,Rapido
+21 Angeles,Humedal Cordoba,3,0,1,1.793,12,1,0,0,0,3.98,Rapido
+Gratamira,San Facade,15,4,4,11.785,21,4,0,0,0,25.55,Medio
+Calle 142,Av Cali Calle 80,14,4,4,5.929,19,2,1,0,0,38.07,Medio
+Simon Bolivar,Flores,9,2,3,0.867,12,2,0,0,0,17.03,Rapido
+Normandia,Santa Lucia,21,5,4,14.16,11,5,0,1,0,37.01,Medio
+Portal Sur,Calle 72,16,3,3,13.157,20,6,1,1,1,37.66,Medio
+Calle 142,Suba TV 91,13,1,2,4.051,14,0,0,0,0,27.35,Medio
+Calle 106,CAN,7,3,3,4.065,15,2,0,0,0,12.85,Rapido
+Calle 22,Escuela Militar,7,3,4,7.394,5,5,0,1,0,11.52,Rapido
+La Campiña,Restrepo,20,4,4,18.04,6,2,1,0,0,49.31,Medio
+Prado,El Dorado,15,3,3,8.343,9,0,0,0,0,34.04,Medio
+Portal Americas,Suba TV 91,22,3,4,12.559,23,4,0,0,1,41.0,Medio
+Nariño,Calle 40 Sur,5,0,1,3.14,9,2,0,0,0,8.27,Rapido
+Biblioteca Tintal,San Facade,8,0,1,6.017,17,2,1,0,0,19.14,Rapido
+Calle 34,Calle 38A Sur,17,2,3,10.624,20,4,1,0,0,46.99,Medio
+Shaio,Centro Memoria,11,3,3,9.458,22,4,0,0,0,19.57,Rapido
+Flores,Calle 100 Suba,6,1,2,5.275,13,6,0,1,0,8.36,Rapido
+Shaio,Calle 127,6,1,2,2.465,8,5,1,1,0,13.31,Rapido
+Cardio Infantil,Mandalay,21,4,5,13.239,16,4,0,0,0,49.21,Medio
+Calle 63 NQS,Minuto de Dios,7,1,2,4.995,19,4,1,0,0,16.79,Rapido
+Escuela Militar,Centro Memoria,8,2,3,7.269,16,1,0,0,0,16.86,Rapido
+Calle 19,Biblioteca Tintal,12,1,2,6.454,12,4,0,0,0,24.8,Rapido
+Heroes,Alcala,7,1,2,6.424,15,5,0,1,0,12.6,Rapido
+Portal Suba,Aurora,31,5,5,25.088,15,1,0,0,1,76.41,Lento
+Salitre El Greco,Quiroga,15,4,3,10.776,13,4,0,0,0,28.09,Medio
+Calle 40 Sur,Aurora,8,1,2,4.147,17,4,1,0,0,45.09,Medio
+General Santander,Calle 63 NQS,10,1,2,12.481,6,2,1,0,0,28.38,Medio
+Granja,Biblioteca Tintal,16,2,3,6.37,19,5,1,1,0,44.31,Medio
+Granja,Molinos,29,7,6,19.549,8,0,1,0,0,112.88,Lento
+NQS Calle 38A Sur,Escuela Militar,7,0,1,9.688,17,4,1,0,0,21.66,Rapido
+Las Aguas,Portal Usme,21,3,4,10.769,22,0,0,0,1,59.71,Lento
+Portal El Dorado,San Victorino,14,4,2,7.549,5,0,0,0,1,23.62,Rapido
+Marly,Portal Usme,24,2,3,14.364,17,5,1,1,1,82.56,Lento
+Modelia,Yomasa,25,5,4,15.623,14,1,0,0,0,71.02,Lento
+Gratamira,CAN,10,2,3,6.336,13,3,0,0,0,21.06,Rapido
+Av 68,San Victorino,10,4,2,6.226,13,1,0,0,0,18.11,Rapido
+Calle 38A Sur,Calle 127,21,5,6,19.29,17,4,1,0,0,80.64,Lento
+Yomasa,Escuela Militar,17,2,3,17.577,18,1,1,0,0,66.04,Lento
+La Campiña,Tercer Milenio,17,3,3,15.641,15,3,0,0,0,30.47,Medio
+Calle 38A Sur,Simon Bolivar,12,2,3,13.314,22,5,0,1,0,28.17,Medio
+La Campiña,Restrepo,20,4,4,18.04,9,3,0,0,0,43.77,Medio
+Calle 40 Sur,Santa Lucia,4,1,2,2.155,10,2,0,0,0,10.13,Rapido
+Calle 22,Calle 85,6,1,2,6.296,15,6,0,1,0,8.97,Rapido
+Las Aguas,Olaya,9,2,3,3.614,18,2,1,0,0,22.18,Rapido
+Gratamira,Calle 45,10,1,2,8.599,11,0,0,0,0,16.13,Rapido
+Toberin,Granja,16,4,4,8.97,23,4,0,0,0,28.37,Medio
+Av 68,Modelia,3,0,1,1.68,7,5,1,1,0,5.66,Rapido
+Tercer Milenio,Portal Suba,18,3,3,16.453,16,1,0,0,1,36.06,Medio
+Calle 38A Sur,Calle 63,17,4,4,13.522,11,1,0,0,0,37.32,Medio
+Alcala,Granja,12,4,4,6.168,18,1,1,0,0,41.28,Medio
+Consuelo,Calle 100,22,4,5,19.015,10,3,0,0,0,70.09,Lento
+Mandalay,Portal El Dorado,22,4,3,2.245,12,3,0,0,1,39.81,Medio
+Museo Nacional,Las Aguas,3,0,1,1.807,17,4,1,0,0,6.2,Rapido
+Ricaurte,Restrepo,4,1,2,4.446,6,4,1,0,0,8.28,Rapido
+Av Chile,Flores,7,2,3,3.126,21,4,0,0,0,11.79,Rapido
+San Victorino,NQS Calle 38A Sur,6,3,4,1.489,21,6,0,1,0,7.01,Rapido
+Hospitales,Portal 80,8,0,1,11.376,17,2,1,0,1,25.05,Medio
+Calle 63 NQS,Pepe Sierra,8,3,4,4.453,14,4,0,0,0,18.5,Rapido
+Calle 40 Sur,Portal Norte,24,4,5,23.19,19,0,1,0,1,70.86,Lento
+Simon Bolivar,Salitre El Greco,11,3,4,1.694,9,3,0,0,0,21.59,Rapido
+Calle 72,Portal El Dorado,10,1,2,5.998,23,5,0,1,1,17.39,Rapido
+Calle 127,General Santander,20,5,4,17.464,15,5,0,1,0,37.03,Medio
+Calle 63,Calle 22,3,1,2,4.254,7,0,1,0,0,6.72,Rapido
+Calle 106,Restrepo,14,5,4,12.629,17,5,1,1,0,32.86,Medio
+Calle 63,Museo Nacional,5,2,2,3.924,22,3,0,0,0,6.09,Rapido
+Marly,Santa Lucia,17,2,3,10.941,9,1,0,0,0,35.36,Medio
+Biblioteca Tintal,Patio Bonito,2,0,1,0.993,14,2,0,0,0,2.84,Rapido
+Heroes,Yomasa,21,4,4,15.598,10,0,0,0,0,59.4,Lento
+21 Angeles,Virrey,7,1,2,5.714,13,0,0,0,0,13.46,Rapido
+Salitre El Greco,21 Angeles,12,2,3,6.994,20,1,1,0,0,30.34,Medio
+Portal El Dorado,Olaya,19,4,3,10.99,19,0,1,0,1,46.77,Medio
+San Facade,Gratamira,13,3,4,11.785,22,6,0,1,0,20.24,Rapido
+Calle 40 Sur,CAN,15,4,3,11.435,16,0,0,0,0,24.28,Rapido
+Shaio,Tercer Milenio,12,3,3,11.324,14,2,0,0,0,21.2,Rapido
+Patio Bonito,Calle 72,15,3,4,7.977,10,5,0,1,0,29.78,Medio
+Suba TV 91,Shaio,5,0,1,3.547,22,1,0,0,0,8.28,Rapido
+Molinos,Av Cali Calle 80,26,3,4,19.758,7,6,1,1,0,81.32,Lento
+Museo Nacional,Calle 100,8,3,3,7.537,18,6,1,1,0,14.78,Rapido
+Calle 38A Sur,Calle 22,15,2,3,9.274,13,2,0,0,0,34.09,Medio
+Consuelo,Toberin,31,5,6,26.44,6,0,1,0,0,127.79,Lento
+Restrepo,Calle 127,14,4,5,14.326,20,5,1,1,0,42.76,Medio
+Heroes,Pepe Sierra,4,1,2,4.17,15,2,0,0,0,7.77,Rapido
+Modelia,Calle 34,11,1,2,5.651,23,3,0,0,0,18.48,Rapido
+Pradera,Calle 85,10,3,4,4.196,12,5,0,1,0,18.28,Rapido
+Calle 22,Av 68,7,2,2,5.524,19,5,1,1,0,17.39,Rapido
+Consuelo,Toberin,31,5,6,26.44,18,3,1,0,0,102.98,Lento
+De La Sabana,Alcala,14,4,5,9.867,11,5,0,1,0,28.5,Medio
+La Campiña,Humedal Cordoba,5,0,1,3.69,21,4,0,0,0,6.62,Rapido
+Marly,Marsella,13,1,2,3.638,17,5,1,1,0,30.2,Medio
+Calle 72,Cardio Infantil,11,2,2,9.234,15,6,0,1,0,17.28,Rapido
+Portal Suba,Av Cali Calle 80,16,3,3,5.994,9,3,0,0,1,33.37,Medio
+Ricaurte,Marly,10,1,2,2.342,19,6,1,1,0,19.8,Rapido
+CAN,Quiroga,14,4,3,10.657,14,4,0,0,0,25.17,Medio
+Ricaurte,Aurora,14,2,3,10.836,11,4,0,0,0,46.89,Medio
+Modelia,Calle 100,10,2,3,5.56,9,2,0,0,0,19.4,Rapido
+Museo Nacional,Yomasa,15,2,3,10.765,22,6,0,1,0,28.47,Medio
+Calle 85,Suba TV 91,9,1,2,7.303,8,6,1,1,0,19.0,Rapido
+Las Aguas,Av Cali Calle 80,15,6,4,10.258,13,3,0,0,0,30.63,Medio
+Mundo Aventura,Portal Americas,5,0,1,3.834,14,1,0,0,1,8.78,Rapido
+Mundo Aventura,Av Cali Calle 80,15,2,3,5.627,11,0,0,0,0,31.0,Medio
+Portal Sur,Prado,20,4,5,19.033,9,1,0,0,1,44.93,Medio
+Restrepo,La Campiña,18,3,4,18.04,15,1,0,0,0,38.38,Medio
+Quiroga,Calle 34,12,1,2,7.228,11,5,0,1,0,16.47,Rapido
+Quiroga,Calle 19,9,1,2,5.54,5,2,0,0,0,14.78,Rapido
+Suba TV 91,Calle 127,10,1,2,4.733,15,3,0,0,0,19.28,Rapido
+La Campiña,Aurora,30,5,5,24.309,23,6,0,1,0,55.66,Lento
+Mandalay,Centro Memoria,9,1,2,5.617,11,2,0,0,0,15.89,Rapido
+Portal 80,Calle 22,7,3,4,8.947,13,1,0,0,1,12.79,Rapido
+Virrey,San Victorino,10,3,2,8.238,21,0,0,0,0,14.62,Rapido
+Las Aguas,Granja,14,6,4,10.251,9,5,0,1,0,26.81,Medio
+Calle 63 NQS,Calle 100 Suba,7,2,3,3.554,14,4,0,0,0,15.82,Rapido
+Biblioteca Tintal,Calle 34,15,1,2,6.205,5,3,0,0,0,24.24,Rapido
+NQS Calle 38A Sur,Biblioteca Tintal,9,1,2,7.405,7,3,1,0,0,26.13,Medio
+Socorro,Yomasa,2,0,1,0.579,19,4,1,0,0,6.6,Rapido
+Centro Memoria,Ricaurte,4,1,2,1.005,7,6,1,1,0,6.58,Rapido
+Calle 127,Portal Norte,8,0,1,6.512,8,3,1,0,1,19.93,Rapido
+Portal Norte,Portal Suba,19,1,2,5.595,12,1,0,0,2,39.26,Medio
+Gobernacion,Molinos,23,5,4,16.035,17,1,1,0,0,98.15,Lento
+Mandalay,Portal El Dorado,22,4,3,2.245,20,0,1,0,1,50.62,Lento
+Portal Sur,Portal Norte,26,4,5,24.759,10,2,0,0,2,61.73,Lento
+Calle 34,Profamilia,2,0,1,0.675,8,3,1,0,0,2.35,Rapido
+Mandalay,San Victorino,11,2,3,5.653,7,6,1,1,0,21.32,Rapido
+Socorro,Olaya,8,1,2,4.768,12,4,0,0,0,22.39,Rapido
+Portal Sur,NQS Calle 38A Sur,9,1,2,5.9,7,2,1,0,1,25.71,Medio
+Polo,Santa Lucia,19,5,5,16.764,15,4,0,0,0,39.96,Medio
+Calle 100 Suba,Shaio,2,0,1,0.993,20,0,1,0,0,2.84,Rapido
+San Victorino,Calle 142,15,5,3,13.521,19,1,1,0,0,37.68,Medio
+Suba TV 91,Calle 146,14,1,2,4.107,17,2,1,0,0,38.72,Medio
+Calle 127,De La Sabana,12,4,5,8.319,9,4,0,0,0,28.84,Medio
+21 Angeles,Calle 40 Sur,21,4,4,18.542,9,3,0,0,0,39.96,Medio
+Shaio,Portal Americas,18,3,4,10.463,11,1,0,0,1,40.85,Medio
+Santa Lucia,Humedal Cordoba,20,4,5,18.993,18,5,1,1,0,64.39,Lento
+Calle 127,Simon Bolivar,10,3,4,6.039,5,4,0,0,0,20.64,Rapido
+Calle 34,Hospitales,8,1,2,3.985,6,2,1,0,0,18.79,Rapido
+21 Angeles,San Victorino,14,4,3,13.01,16,0,0,0,0,29.7,Medio
+Ferias,Polo,3,1,2,1.57,23,3,0,0,0,5.37,Rapido
+Normandia,Museo Nacional,10,3,2,5.921,18,4,1,0,0,22.41,Rapido
+Calle 38A Sur,Cardio Infantil,26,5,6,23.431,22,3,0,0,0,58.71,Lento
+Patio Bonito,Calle 45,16,3,3,7.146,14,6,0,1,0,24.13,Rapido
+Calle 100 Suba,Aurora,24,5,5,19.307,9,5,0,1,0,60.94,Lento
+Calle 38A Sur,Calle 106,19,5,6,17.593,9,5,0,1,0,47.91,Medio
+Tercer Milenio,Pepe Sierra,12,4,3,11.179,10,3,0,0,0,21.73,Rapido
+Portal Americas,NQS Calle 38A Sur,11,1,2,8.443,16,1,0,0,1,23.36,Rapido
+Shaio,Pradera,12,3,4,6.085,12,5,0,1,0,24.1,Rapido
+Salitre El Greco,Shaio,9,2,3,4.617,16,0,0,0,0,18.29,Rapido
+Mundo Aventura,Calle 19,10,1,2,5.316,23,3,0,0,0,16.23,Rapido
+Restrepo,Gratamira,15,3,4,15.435,19,4,1,0,0,43.97,Medio
+Calle 127,Flores,8,2,2,6.553,20,5,1,1,0,19.92,Rapido
+Calle 100 Suba,Salitre El Greco,8,2,3,3.861,23,2,0,0,0,14.54,Rapido
+Ricaurte,Alcala,13,3,4,11.605,20,3,1,0,0,39.81,Medio
+Marly,Patio Bonito,17,1,2,7.049,16,6,0,1,0,23.34,Rapido
+Suba TV 91,Humedal Cordoba,4,0,1,2.741,23,2,0,0,0,5.13,Rapido
+Calle 63 NQS,Shaio,8,2,3,4.475,6,5,1,1,0,24.11,Rapido
+Virrey,Av 68,9,1,2,3.731,14,3,0,0,0,14.93,Rapido
+Gratamira,General Santander,21,4,4,18.537,9,4,0,0,0,41.96,Medio
+Alcala,Calle 19,12,4,3,11.925,10,4,0,0,0,25.02,Medio
+Mundo Aventura,Calle 72,12,3,4,5.093,13,6,0,1,0,21.89,Rapido
+Restrepo,Av Cali Calle 80,14,2,3,12.888,15,0,0,0,0,33.91,Medio
+Calle 45,Pradera,11,3,3,2.808,18,6,1,1,0,21.84,Rapido
+Calle 63 NQS,Consuelo,17,2,3,16.145,23,5,0,1,0,43.25,Medio
+Gobernacion,Calle 19,5,3,2,5.01,6,1,1,0,0,11.07,Rapido
+Portal Suba,Ricaurte,20,4,4,14.403,12,3,0,0,1,38.78,Medio
+Gobernacion,Calle 40 Sur,14,4,3,11.238,21,6,0,1,0,17.69,Rapido
+Portal Americas,Museo Nacional,13,1,2,7.774,15,4,0,0,1,24.38,Rapido
+Ricaurte,Modelia,15,4,3,5.759,18,4,1,0,0,43.55,Medio
+Marly,Granja,11,3,3,7.243,13,6,0,1,0,16.61,Rapido
+Nariño,Portal Norte,20,4,5,20.052,12,5,0,1,1,42.43,Medio
+Quiroga,Marsella,9,2,3,9.427,10,2,0,0,0,18.03,Rapido
+Calle 100,Alcala,6,0,1,3.723,18,0,1,0,0,15.94,Rapido
+Minuto de Dios,El Dorado,14,4,4,2.905,14,2,0,0,0,26.23,Medio
+Calle 127,CAN,9,3,3,5.661,11,4,0,0,0,17.83,Rapido
+Calle 22,Calle 127,9,3,3,10.018,9,3,0,0,0,18.96,Rapido
+Santa Lucia,Calle 85,17,4,5,15.111,8,5,1,1,0,46.01,Medio
+Calle 100 Suba,Portal El Dorado,13,2,3,6.129,13,6,0,1,1,22.02,Rapido
+Mandalay,General Santander,13,2,3,10.849,10,6,0,1,0,21.28,Rapido
+Museo Nacional,NQS Calle 38A Sur,5,2,3,2.673,15,0,0,0,0,8.31,Rapido
+Calle 72,Portal 80,4,2,3,4.589,7,3,1,0,1,11.76,Rapido
+Nariño,Calle 72,10,3,3,8.449,20,0,1,0,0,21.58,Rapido
+De La Sabana,Toberin,18,4,5,13.542,8,3,1,0,0,52.12,Lento
+Calle 100 Suba,Shaio,2,0,1,0.993,13,6,0,1,0,1.73,Rapido
+Calle 45,21 Angeles,11,1,2,9.427,6,5,1,1,0,23.24,Rapido
+Marly,Nariño,10,1,2,5.649,23,0,0,0,0,15.38,Rapido
+Portal Usme,Portal Sur,9,0,1,4.081,18,3,1,0,2,67.54,Lento
+Calle 100,Salitre El Greco,7,2,3,3.924,12,0,0,0,0,12.46,Rapido
+Portal Sur,Calle 22,13,1,2,8.23,23,4,0,0,1,23.23,Rapido
+Humedal Cordoba,Normandia,12,2,3,5.277,6,5,1,1,0,32.82,Medio
+Molinos,Ricaurte,16,2,3,11.546,15,0,0,0,0,59.97,Lento
+Hospitales,Centro Memoria,3,1,2,2.721,10,4,0,0,0,3.28,Rapido
+Cardio Infantil,Humedal Cordoba,12,1,2,4.876,17,0,1,0,0,32.36,Medio
+Calle 106,Yomasa,23,6,5,18.755,19,5,1,1,0,60.43,Lento
+Av 68,Socorro,22,5,4,14.763,12,3,0,0,0,53.3,Lento
+La Campiña,Pradera,17,3,4,10.101,22,6,0,1,0,30.49,Medio
+Aurora,Av Cali Calle 80,24,3,4,19.095,15,0,0,0,0,68.9,Lento
+Normandia,Calle 22,8,2,2,6.21,11,6,0,1,0,12.62,Rapido
+Ricaurte,Calle 45,9,3,3,2.933,23,1,0,0,0,13.73,Rapido
+Calle 40 Sur,Portal Usme,11,1,2,5.616,5,3,0,0,1,48.73,Medio
+Flores,Calle 34,4,0,1,2.121,5,1,0,0,0,5.53,Rapido
+Calle 142,Portal El Dorado,18,3,3,10.205,10,6,0,1,1,31.43,Medio
+Calle 146,Calle 19,14,4,3,13.385,20,4,1,0,0,37.71,Medio
+Centro Memoria,Pepe Sierra,11,4,3,9.243,15,6,0,1,0,17.41,Rapido
+Normandia,Mandalay,19,4,3,3.242,8,5,1,1,0,43.42,Medio
+De La Sabana,Av Chile,5,1,2,4.475,23,1,0,0,0,8.03,Rapido
+Calle 40 Sur,Patio Bonito,14,2,3,10.191,10,5,0,1,0,24.41,Rapido
+Flores,Simon Bolivar,9,2,3,0.867,6,1,1,0,0,22.97,Rapido
+Toberin,Museo Nacional,17,4,3,14.964,10,0,0,0,0,32.3,Medio
+21 Angeles,Calle 72,8,1,2,7.477,7,5,1,1,0,20.72,Rapido
+Patio Bonito,Portal Suba,23,3,4,13.198,9,1,0,0,1,46.79,Medio
+Portal Americas,Olaya,13,2,3,9.419,12,1,0,0,1,25.56,Medio
+Calle 85,Pradera,10,3,4,4.196,7,5,1,1,0,28.06,Medio
+Patio Bonito,21 Angeles,20,3,4,11.219,22,1,0,0,0,41.2,Medio
+Calle 142,Virrey,8,0,1,5.292,16,6,0,1,0,12.85,Rapido
+El Dorado,Portal Norte,21,3,3,13.227,11,2,0,0,1,37.74,Medio
+Calle 45,Portal Suba,14,1,2,12.142,20,1,1,0,1,36.72,Medio
+Biblioteca Tintal,Molinos,22,3,4,14.015,14,1,0,0,0,65.72,Lento
+Portal El Dorado,Av Chile,14,3,4,5.062,8,5,1,1,1,32.09,Medio
+Calle 63,Av 68,5,0,1,2.808,20,4,1,0,0,10.93,Rapido
+Portal 80,Socorro,22,6,6,18.427,23,2,0,0,1,49.35,Medio
+Mandalay,Escuela Militar,10,1,2,5.973,8,2,1,0,0,25.89,Medio
+Olaya,Centro Memoria,6,1,2,5.183,17,1,1,0,0,12.25,Rapido
+Biblioteca Tintal,Polo,12,1,2,7.264,9,1,0,0,0,27.03,Medio
+NQS Calle 38A Sur,Mundo Aventura,7,1,2,6.684,9,3,0,0,0,15.66,Rapido
+Granja,Centro Memoria,13,5,4,8.863,15,1,0,0,0,24.13,Rapido
+Gratamira,Calle 38A Sur,24,5,5,20.318,8,6,1,1,0,57.05,Lento
+Marsella,El Dorado,19,4,3,2.288,14,4,0,0,0,36.7,Medio
+Toberin,Calle 63 NQS,15,3,4,10.339,23,4,0,0,0,27.86,Medio
+Quiroga,Portal Usme,12,1,2,6.39,11,4,0,0,1,51.76,Lento
+Alcala,Pepe Sierra,4,0,1,2.254,12,1,0,0,0,6.58,Rapido
+Socorro,Calle 45,18,4,4,12.649,23,0,0,0,0,36.38,Medio
+Portal Suba,Prado,13,1,2,5.9,6,3,1,0,1,36.52,Medio
+Calle 142,Portal Americas,22,4,5,14.299,20,1,1,0,1,64.34,Lento
+Olaya,De La Sabana,6,2,3,6.993,9,2,0,0,0,10.69,Rapido
+Calle 127,Aurora,26,6,5,20.811,20,5,1,1,0,81.03,Lento
+Shaio,Simon Bolivar,9,2,3,5.48,5,3,0,0,0,16.46,Rapido
+Normandia,Calle 85,9,1,2,4.071,16,5,0,1,0,15.0,Rapido
+Yomasa,Calle 100 Suba,21,4,5,18.959,17,5,1,1,0,64.63,Lento
+Pepe Sierra,Granja,9,4,4,5.019,22,4,0,0,0,19.77,Rapido
+Calle 106,Virrey,3,0,1,1.241,15,5,0,1,0,3.93,Rapido
+Molinos,Biblioteca Tintal,22,3,4,14.015,8,3,1,0,0,92.14,Lento
+Molinos,Calle 72,23,4,4,16.447,22,5,0,1,0,52.0,Lento
+Consuelo,Calle 38A Sur,5,0,1,1.917,15,1,0,0,0,21.11,Rapido
+Simon Bolivar,Consuelo,16,2,3,15.174,12,2,0,0,0,48.76,Medio
+Pepe Sierra,Gratamira,7,1,2,3.465,6,0,1,0,0,17.57,Rapido
+Prado,Restrepo,17,5,4,15.111,8,3,1,0,0,47.4,Medio
+Ricaurte,Hospitales,2,0,1,2.81,19,4,1,0,0,3.5,Rapido
+Calle 100,Cardio Infantil,9,0,1,6.296,19,0,1,0,0,22.36,Rapido
+Heroes,Calle 100 Suba,3,0,1,3.721,8,1,1,0,0,6.87,Rapido
+Pradera,Calle 45,11,3,3,2.808,11,4,0,0,0,19.68,Rapido
+Patio Bonito,Salitre El Greco,19,4,3,6.017,9,3,0,0,0,35.75,Medio
+Aurora,Hospitales,13,1,2,8.164,11,0,0,0,0,39.97,Medio
+Quiroga,Marly,13,1,2,8.002,18,4,1,0,0,29.77,Medio
+Mandalay,Portal Usme,22,3,4,14.898,23,5,0,1,1,65.69,Lento
+Portal 80,Portal El Dorado,13,3,4,5.102,14,4,0,0,2,26.89,Medio
+Calle 63 NQS,Gobernacion,8,3,4,0.496,12,3,0,0,0,14.58,Rapido
+Biblioteca Tintal,Calle 40 Sur,13,2,3,10.128,16,2,0,0,0,25.06,Medio
+Calle 63,Ricaurte,9,3,3,4.329,14,1,0,0,0,16.75,Rapido
+Calle 45,Calle 63,3,0,1,1.46,12,0,0,0,0,3.25,Rapido
+Calle 34,Portal 80,9,2,3,7.701,13,2,0,0,1,16.29,Rapido
+Av Cali Calle 80,Las Aguas,15,6,4,10.258,16,1,0,0,0,30.37,Medio
+Calle 63,Ricaurte,9,3,3,4.329,14,0,0,0,0,15.54,Rapido
+Pradera,Calle 40 Sur,9,2,3,10.272,19,2,1,0,0,24.4,Rapido
+Salitre El Greco,Prado,11,3,3,6.568,15,5,0,1,0,19.87,Rapido
+Hospitales,Shaio,11,2,3,12.1,9,6,0,1,0,21.6,Rapido
+Portal 80,Marsella,10,1,2,5.492,8,5,1,1,1,24.98,Rapido
+San Facade,Calle 19,5,1,2,0.65,14,0,0,0,0,6.92,Rapido
+Portal Americas,Modelia,23,4,3,5.34,7,2,1,0,1,58.28,Lento
+Simon Bolivar,Restrepo,5,1,2,8.361,12,6,0,1,0,7.99,Rapido
+Aurora,Calle 106,22,5,6,19.113,22,6,0,1,0,46.72,Medio
+Calle 127,Profamilia,10,4,3,9.343,17,1,1,0,0,26.98,Medio
+Profamilia,CAN,8,1,2,4.362,16,3,0,0,0,12.84,Rapido
+Mundo Aventura,NQS Calle 38A Sur,7,1,2,6.684,16,0,0,0,0,14.05,Rapido
+Portal Americas,San Victorino,14,2,3,7.276,7,1,1,0,1,39.29,Medio
+Patio Bonito,Portal 80,14,1,2,8.414,14,1,0,0,1,35.12,Medio
+Pepe Sierra,Patio Bonito,17,4,5,10.975,9,6,0,1,0,29.08,Medio
+Consuelo,Humedal Cordoba,25,4,5,21.254,20,6,1,1,0,78.39,Lento
+Socorro,Museo Nacional,14,2,3,10.188,7,0,1,0,0,51.24,Lento
+Patio Bonito,Calle 72,15,3,4,7.977,22,3,0,0,0,32.36,Medio
+Calle 38A Sur,Centro Memoria,12,2,3,9.362,10,6,0,1,0,23.16,Rapido
+Av Chile,Humedal Cordoba,8,2,3,3.924,23,2,0,0,0,15.83,Rapido
+El Dorado,Av 68,4,0,1,2.445,5,1,0,0,0,6.68,Rapido
+Portal Suba,Calle 22,14,2,3,14.783,14,3,0,0,1,28.61,Medio
+Flores,Av 68,6,1,2,3.048,8,6,1,1,0,10.93,Rapido
+Calle 100,Suba TV 91,7,0,1,6.036,16,4,0,0,0,12.65,Rapido
+Gobernacion,Yomasa,20,5,4,14.973,20,5,1,1,0,65.27,Lento
+Shaio,Aurora,25,5,5,20.151,13,1,0,0,0,61.65,Lento
+Portal Norte,Calle 38A Sur,30,6,5,25.8,16,1,0,0,1,60.41,Lento
+Modelia,Biblioteca Tintal,21,4,3,3.574,14,2,0,0,0,44.05,Medio
+Profamilia,Cardio Infantil,17,2,2,13.486,10,6,0,1,0,24.88,Rapido
+Salitre El Greco,Mandalay,17,4,3,4.036,15,6,0,1,0,28.44,Medio
+Granja,Molinos,29,7,6,19.549,8,4,1,0,0,119.07,Lento
+Alcala,Calle 38A Sur,25,6,5,20.859,21,2,0,0,0,49.26,Medio
+Marsella,Calle 63,12,3,3,3.745,8,1,1,0,0,26.01,Medio
+Cardio Infantil,San Victorino,17,5,3,15.304,21,6,0,1,0,24.0,Rapido
+Calle 19,Patio Bonito,13,1,2,7.109,19,0,1,0,0,29.02,Medio
+Aurora,Portal Sur,6,0,1,2.598,16,2,0,0,1,23.83,Rapido
+Portal 80,Suba TV 91,10,2,3,4.113,21,6,0,1,1,15.85,Rapido
+Humedal Cordoba,Av 68,11,2,3,5.334,8,1,1,0,0,27.24,Medio
+Escuela Militar,La Campiña,11,2,3,6.574,9,1,0,0,0,20.34,Rapido
+Calle 19,Calle 100 Suba,8,3,3,8.995,5,6,0,1,0,10.58,Rapido
+Centro Memoria,Calle 146,16,4,3,12.957,6,6,1,1,0,34.68,Medio
+Portal Suba,Calle 22,14,2,3,14.783,13,0,0,0,1,27.11,Medio
+Calle 142,Calle 22,12,3,3,12.372,11,4,0,0,0,24.22,Rapido
+Minuto de Dios,Av 68,11,4,4,3.665,7,1,1,0,0,35.42,Medio
+Simon Bolivar,Minuto de Dios,8,1,2,5.73,16,1,0,0,0,18.59,Rapido
+Toberin,Ferias,14,4,4,8.969,21,4,0,0,0,26.68,Medio
+Alcala,Restrepo,18,5,4,15.895,11,5,0,1,0,28.48,Medio
+Ricaurte,21 Angeles,13,2,3,11.779,8,1,1,0,0,45.13,Medio
+Portal Suba,Molinos,33,5,5,25.752,23,1,0,0,1,85.03,Lento
+Calle 85,Modelia,10,1,2,4.855,17,3,1,0,0,22.63,Rapido
+Calle 19,Las Aguas,4,1,2,1.144,8,3,1,0,0,6.65,Rapido
+Molinos,Heroes,24,4,4,16.687,22,5,0,1,0,50.2,Lento
+Calle 19,NQS Calle 38A Sur,6,2,3,2.005,14,3,0,0,0,9.58,Rapido
+Portal 80,El Dorado,12,3,4,4.507,22,3,0,0,1,23.14,Rapido
+Cardio Infantil,Calle 100,9,0,1,6.296,20,5,1,1,0,18.62,Rapido
+Portal Usme,Calle 146,31,5,6,25.274,17,3,1,0,1,135.25,Lento
+Calle 22,Calle 40 Sur,11,1,2,6.662,17,3,1,0,0,29.04,Medio
+Calle 63 NQS,Calle 100,6,2,3,3.03,16,1,0,0,0,12.19,Rapido
+Normandia,Calle 22,8,2,2,6.21,12,6,0,1,0,12.16,Rapido
+Simon Bolivar,Socorro,13,2,3,13.893,13,6,0,1,0,31.04,Medio
+Normandia,Modelia,2,0,1,0.785,20,5,1,1,0,2.54,Rapido
+Portal Usme,Profamilia,22,2,3,12.922,13,1,0,0,1,68.89,Lento
+General Santander,Portal Usme,10,1,2,4.846,20,1,1,0,1,62.3,Lento
+Calle 142,Biblioteca Tintal,20,4,5,12.551,7,3,1,0,0,68.0,Lento
+Museo Nacional,Tercer Milenio,3,0,1,2.181,15,1,0,0,0,3.05,Rapido
+Calle 100 Suba,Quiroga,16,4,4,14.451,20,6,1,1,0,31.18,Medio
+Pradera,Portal Usme,19,3,4,15.554,21,2,0,0,1,64.51,Lento
+Salitre El Greco,Aurora,23,5,4,15.559,6,3,1,0,0,83.17,Lento
+Portal Americas,Las Aguas,15,2,3,7.958,17,3,1,0,1,37.24,Medio
+San Victorino,Humedal Cordoba,12,4,3,11.323,10,3,0,0,0,21.65,Rapido
+NQS Calle 38A Sur,Portal Usme,17,2,3,9.941,8,4,1,0,1,92.36,Lento
+Salitre El Greco,Shaio,9,2,3,4.617,20,3,1,0,0,22.12,Rapido
+CAN,Nariño,11,4,3,8.328,13,3,0,0,0,18.84,Rapido
+Modelia,Heroes,9,1,2,4.556,15,0,0,0,0,14.16,Rapido
+Molinos,Minuto de Dios,24,3,4,19.372,23,0,0,0,0,71.84,Lento
+Museo Nacional,Calle 142,14,4,3,12.044,18,2,1,0,0,40.43,Medio
+CAN,Flores,4,1,2,2.041,12,1,0,0,0,5.84,Rapido
+Calle 100,La Campiña,8,0,1,6.967,8,2,1,0,0,18.98,Rapido
+Av Cali Calle 80,Portal El Dorado,17,4,4,4.352,18,4,1,0,1,49.23,Medio
+Aurora,Portal Suba,29,4,5,25.088,23,0,0,0,1,75.33,Lento
+NQS Calle 38A Sur,Mandalay,8,1,2,7.071,23,0,0,0,0,15.0,Rapido
+Consuelo,Marsella,18,3,4,14.332,20,4,1,0,0,82.81,Lento
+Calle 63 NQS,Toberin,15,3,4,10.339,14,2,0,0,0,31.82,Medio
+Calle 100 Suba,Ricaurte,13,4,4,8.472,11,2,0,0,0,22.03,Rapido
+Shaio,Normandia,11,2,3,4.669,12,4,0,0,0,20.83,Rapido
+Simon Bolivar,Calle 142,13,3,4,8.373,23,2,0,0,0,24.76,Rapido
+Restrepo,Portal Suba,19,3,4,18.843,18,1,1,0,1,51.76,Lento
+Humedal Cordoba,Prado,8,1,2,2.795,14,3,0,0,0,15.78,Rapido
+Patio Bonito,Normandia,21,4,3,5.107,13,4,0,0,0,42.75,Medio
+San Facade,Calle 85,9,3,4,6.973,5,5,0,1,0,17.29,Rapido
+Shaio,Pradera,12,3,4,6.085,11,5,0,1,0,27.11,Medio
+Portal Norte,Granja,17,4,4,10.044,22,6,0,1,1,28.3,Medio
+Polo,Santa Lucia,19,5,5,16.764,6,4,1,0,0,52.09,Lento
+Ferias,Calle 45,8,3,3,6.036,14,6,0,1,0,12.22,Rapido
+Calle 100,Consuelo,24,5,5,19.015,18,2,1,0,0,97.29,Lento
+General Santander,Suba TV 91,21,3,4,20.213,12,3,0,0,0,42.34,Medio
+Av 68,Flores,6,1,2,3.048,14,3,0,0,0,10.48,Rapido
+Pepe Sierra,Av Cali Calle 80,10,4,4,4.215,11,1,0,0,0,20.16,Rapido
+Gratamira,San Facade,15,4,4,11.785,10,5,0,1,0,28.14,Medio
+Portal Usme,Aurora,4,0,1,1.489,6,6,1,1,1,22.4,Rapido
+Humedal Cordoba,Calle 100,4,0,1,3.383,18,2,1,0,0,10.02,Rapido
+Nariño,Calle 38A Sur,9,1,2,5.748,12,0,0,0,0,23.82,Rapido
+Calle 22,Quiroga,10,1,2,5.878,23,6,0,1,0,12.17,Rapido
+Calle 127,Ferias,8,4,4,4.97,8,6,1,1,0,20.32,Rapido
+Simon Bolivar,NQS Calle 38A Sur,4,0,1,6.439,12,3,0,0,0,7.83,Rapido
+De La Sabana,Gratamira,13,3,4,9.219,19,3,1,0,0,37.67,Medio
+Portal Usme,Ricaurte,17,2,3,12.245,16,5,0,1,1,58.68,Lento
+Pepe Sierra,Portal Suba,11,1,2,6.761,12,2,0,0,1,24.89,Rapido
+Molinos,Portal Suba,31,4,5,25.752,16,6,0,1,1,71.77,Lento
+Tercer Milenio,Av Cali Calle 80,13,2,3,10.536,6,5,1,1,0,39.49,Medio
+General Santander,San Facade,9,2,3,6.804,17,2,1,0,0,26.04,Medio
+Calle 22,Ricaurte,7,1,2,1.132,12,6,0,1,0,7.49,Rapido
+Nariño,General Santander,6,0,1,3.924,14,0,0,0,0,12.49,Rapido
+Humedal Cordoba,Consuelo,27,5,5,21.254,10,3,0,0,0,77.57,Lento
+Olaya,Av Cali Calle 80,15,2,3,13.644,13,6,0,1,0,26.13,Medio
+Portal Usme,Portal Suba,32,4,5,26.42,18,6,1,1,2,102.38,Lento
+Calle 142,Calle 63,10,2,2,8.121,13,4,0,0,0,18.01,Rapido
+San Facade,Mandalay,7,0,1,5.53,19,5,1,1,0,13.67,Rapido
+Calle 85,Yomasa,22,4,4,16.73,19,6,1,1,0,56.29,Lento
+Centro Memoria,Yomasa,14,2,3,10.525,14,2,0,0,0,37.42,Medio
+Flores,Quiroga,11,2,3,9.343,9,6,0,1,0,15.57,Rapido
+Las Aguas,Portal Americas,15,2,3,7.958,20,6,1,1,1,32.81,Medio
+Socorro,Mandalay,17,3,4,12.896,14,1,0,0,0,40.99,Medio
+Nariño,Museo Nacional,5,1,2,3.853,23,1,0,0,0,5.52,Rapido
+San Victorino,Toberin,18,5,3,16.436,12,0,0,0,0,35.47,Medio
+Calle 63 NQS,Biblioteca Tintal,9,1,2,6.257,17,4,1,0,0,24.53,Rapido
+Calle 127,Mundo Aventura,15,4,5,8.897,10,4,0,0,0,33.05,Medio
+Polo,Portal El Dorado,12,2,3,4.995,20,0,1,0,1,29.49,Medio
+Granja,Heroes,6,2,2,5.306,20,3,1,0,0,17.03,Rapido
+Suba TV 91,De La Sabana,15,3,4,10.924,14,5,0,1,0,29.89,Medio
+Olaya,Calle 40 Sur,3,0,1,1.57,5,2,0,0,0,4.29,Rapido
+Portal Americas,Flores,16,2,3,8.295,16,4,0,0,1,32.41,Medio
+Alcala,Portal Suba,14,1,2,5.511,9,6,0,1,1,23.06,Rapido
+De La Sabana,NQS Calle 38A Sur,4,1,2,4.398,18,5,1,1,0,8.99,Rapido
+San Victorino,CAN,8,4,2,5.884,6,2,1,0,0,20.55,Rapido
+Modelia,Tercer Milenio,13,3,2,7.799,6,0,1,0,0,31.08,Medio
+Humedal Cordoba,Nariño,15,4,4,13.766,16,1,0,0,0,29.85,Medio
+Simon Bolivar,Calle 72,7,2,3,1.099,13,1,0,0,0,15.35,Rapido
+Portal Norte,Calle 34,18,2,2,15.179,7,2,1,0,1,49.21,Medio
+Gobernacion,Calle 19,5,3,2,5.01,15,0,0,0,0,8.77,Rapido
+Gratamira,Molinos,29,5,5,22.465,18,2,1,0,0,114.13,Lento
+Gobernacion,Quiroga,13,4,3,10.455,15,3,0,0,0,23.67,Rapido
+Portal Usme,Calle 45,23,4,4,15.026,22,6,0,1,1,58.18,Lento
+Portal 80,Biblioteca Tintal,13,1,2,7.543,11,1,0,0,1,25.47,Medio
+Portal Suba,Gobernacion,13,2,3,10.125,10,5,0,1,1,21.54,Rapido
+Pradera,Av Chile,6,1,2,3.356,19,2,1,0,0,18.74,Rapido
+Portal El Dorado,Pradera,19,4,3,3.326,8,6,1,1,1,39.84,Medio
+Minuto de Dios,Calle 127,9,4,4,6.145,11,6,0,1,0,16.31,Rapido
+Profamilia,Granja,13,3,3,8.443,23,5,0,1,0,20.96,Rapido
+21 Angeles,Restrepo,18,4,4,16.225,23,1,0,0,0,28.07,Medio
+Pradera,Calle 142,16,4,5,9.581,15,0,0,0,0,37.42,Medio
+Calle 22,Nariño,7,1,2,3.528,16,4,0,0,0,10.21,Rapido
+Mandalay,Calle 45,14,3,3,5.329,5,0,0,0,0,24.69,Rapido
+Portal Sur,Portal El Dorado,23,4,3,13.768,13,4,0,0,2,46.41,Medio
+Av Chile,Virrey,6,2,3,1.65,19,2,1,0,0,19.05,Rapido
+Santa Lucia,Calle 34,16,2,3,10.167,11,6,0,1,0,25.46,Medio
+Mandalay,CAN,16,4,3,4.468,7,4,1,0,0,44.44,Medio
+Normandia,General Santander,19,4,3,12.873,10,1,0,0,0,41.72,Medio
+Calle 127,Aurora,26,6,5,20.811,11,1,0,0,0,64.51,Lento
+Calle 45,Calle 22,5,0,1,2.795,14,3,0,0,0,7.77,Rapido
+La Campiña,Tercer Milenio,17,3,3,15.641,9,2,0,0,0,34.27,Medio
+Profamilia,Centro Memoria,5,0,1,0.598,20,3,1,0,0,9.81,Rapido
+Santa Lucia,Suba TV 91,23,4,5,21.537,18,0,1,0,0,82.95,Lento
+Toberin,Calle 85,12,0,1,8.996,18,5,1,1,0,25.85,Medio
+Marsella,Portal Norte,21,4,5,14.101,12,5,0,1,1,40.29,Medio
+Pradera,Restrepo,6,2,3,8.012,21,0,0,0,0,9.73,Rapido
+Portal Sur,Humedal Cordoba,19,3,4,18.431,9,1,0,0,1,43.31,Medio
+Flores,Quiroga,11,2,3,9.343,18,2,1,0,0,27.21,Medio
+Av Chile,Profamilia,11,2,3,5.799,8,4,1,0,0,25.12,Medio
+Santa Lucia,General Santander,3,1,2,1.373,16,2,0,0,0,8.66,Rapido
+Aurora,Calle 19,17,2,3,10.462,19,1,1,0,0,72.88,Lento
+Av Chile,Calle 106,6,3,4,2.512,18,5,1,1,0,14.67,Rapido
+Portal El Dorado,Portal Americas,25,4,3,4.156,13,2,0,0,2,57.42,Lento
+Calle 85,De La Sabana,9,3,4,4.667,10,0,0,0,0,20.51,Rapido
+Calle 146,Polo,10,2,3,5.884,22,0,0,0,0,15.97,Rapido
+Calle 63 NQS,Portal Sur,11,1,2,13.265,19,5,1,1,1,30.37,Medio
+Tercer Milenio,Portal Usme,17,1,2,10.392,14,4,0,0,1,66.61,Lento
+Nariño,Humedal Cordoba,13,3,4,13.766,7,1,1,0,0,34.96,Medio
+Aurora,Cardio Infantil,29,5,6,24.95,5,1,0,0,0,66.54,Lento
+Ferias,Polo,3,1,2,1.57,22,1,0,0,0,4.95,Rapido
+Calle 40 Sur,Portal Suba,22,3,4,21.139,18,0,1,0,1,64.96,Lento
+Portal 80,Portal Usme,27,6,6,20.682,20,0,1,0,2,123.81,Lento
+Centro Memoria,Hospitales,3,1,2,2.721,23,6,0,1,0,2.53,Rapido
+Alcala,Calle 146,3,0,1,1.46,18,3,1,0,0,5.47,Rapido
+Suba TV 91,San Facade,17,4,4,13.497,14,0,0,0,0,31.65,Medio
+Socorro,Toberin,28,5,6,25.148,20,1,1,0,0,100.76,Lento
+Pepe Sierra,Shaio,5,1,2,2.3,15,4,0,0,0,9.18,Rapido
+Patio Bonito,Portal Suba,23,3,4,13.198,8,3,1,0,1,73.52,Lento
+Portal Americas,Polo,14,1,2,9.027,5,1,0,0,1,25.48,Medio
+Minuto de Dios,Portal 80,3,0,1,2.531,12,4,0,0,1,4.71,Rapido
+Marsella,Tercer Milenio,6,2,3,5.808,19,1,1,0,0,17.26,Rapido
+NQS Calle 38A Sur,Patio Bonito,10,1,2,7.85,16,6,0,1,0,18.44,Rapido
+Calle 63,Virrey,5,0,1,2.83,11,2,0,0,0,7.38,Rapido
+Portal Sur,Calle 34,15,1,2,9.581,10,1,0,0,1,26.74,Medio
+Patio Bonito,Pradera,6,0,1,4.742,14,1,0,0,0,10.01,Rapido
+Aurora,Modelia,26,5,4,15.938,13,2,0,0,0,64.79,Lento
+Prado,Av Cali Calle 80,12,4,4,4.915,7,2,1,0,0,37.24,Medio
+Calle 22,San Victorino,4,1,2,1.337,12,3,0,0,0,4.82,Rapido
+Modelia,Av Chile,12,3,4,3.51,22,2,0,0,0,24.44,Rapido
+Profamilia,Tercer Milenio,6,0,1,2.531,8,5,1,1,0,9.76,Rapido
+Portal El Dorado,Calle 19,12,3,2,7.575,8,6,1,1,1,27.56,Medio
+Calle 146,San Victorino,16,5,3,14.195,6,4,1,0,0,39.25,Medio
+Consuelo,Molinos,2,0,1,0.4,10,5,0,1,0,5.32,Rapido
+Prado,Pradera,14,4,5,8.11,8,1,1,0,0,43.58,Medio
+Calle 38A Sur,Calle 22,15,2,3,9.274,11,3,0,0,0,37.71,Medio
+21 Angeles,Flores,10,1,2,8.803,20,2,1,0,0,22.78,Rapido
+Granja,Mundo Aventura,14,2,3,5.259,18,2,1,0,0,42.1,Medio
+Restrepo,Patio Bonito,11,2,3,8.559,12,1,0,0,0,23.22,Rapido
+Olaya,Portal El Dorado,19,4,3,10.99,21,6,0,1,1,28.97,Medio
+Portal 80,Calle 40 Sur,17,5,5,15.328,5,5,0,1,1,30.42,Medio
+Calle 106,Marsella,12,4,5,6.519,15,3,0,0,0,27.0,Medio
+CAN,Nariño,11,4,3,8.328,6,5,1,1,0,24.0,Rapido
+Shaio,CAN,8,2,3,4.667,21,2,0,0,0,14.05,Rapido
+San Facade,Humedal Cordoba,12,3,4,10.883,15,2,0,0,0,23.86,Rapido
+Restrepo,Toberin,20,4,5,19.599,9,5,0,1,0,39.54,Medio
+Salitre El Greco,Virrey,8,1,2,3.33,19,5,1,1,0,17.27,Rapido
+Normandia,Centro Memoria,11,3,2,6.059,14,0,0,0,0,18.14,Rapido
+Calle 34,Quiroga,12,1,2,7.228,22,2,0,0,0,17.23,Rapido
+La Campiña,Quiroga,22,4,4,19.574,15,6,0,1,0,31.67,Medio
+Salitre El Greco,Socorro,21,5,4,14.659,13,1,0,0,0,50.49,Lento
+Pepe Sierra,Prado,3,0,1,1.469,8,5,1,1,0,5.03,Rapido
+Yomasa,Prado,24,5,6,21.237,16,0,0,0,0,62.74,Lento
+Calle 22,Portal Americas,15,1,2,7.838,14,4,0,0,1,29.47,Medio
+Ferias,Simon Bolivar,7,1,2,4.684,23,5,0,1,0,13.11,Rapido
+Ricaurte,Suba TV 91,14,2,3,12.685,12,2,0,0,0,30.64,Medio
+Shaio,Calle 38A Sur,22,5,5,18.675,17,4,1,0,0,66.16,Lento
+Quiroga,Simon Bolivar,7,1,2,9.929,11,6,0,1,0,11.44,Rapido
+Calle 40 Sur,Pepe Sierra,16,4,5,15.995,18,0,1,0,0,44.18,Medio
+Calle 34,Portal Suba,16,1,2,13.521,11,3,0,0,1,29.67,Medio
+Normandia,Socorro,23,5,4,15.129,22,4,0,0,0,54.29,Lento
+Simon Bolivar,Pradera,4,1,2,2.264,18,3,1,0,0,11.71,Rapido
+Patio Bonito,Calle 63,16,3,3,7.655,9,4,0,0,0,30.05,Medio
+Calle 34,Profamilia,2,0,1,0.675,21,0,0,0,0,1.42,Rapido
+Av Cali Calle 80,Calle 63,9,3,3,5.395,22,2,0,0,0,17.17,Rapido
+Olaya,Calle 19,8,1,2,4.757,8,2,1,0,0,16.46,Rapido
+Calle 45,Calle 22,5,0,1,2.795,16,2,0,0,0,7.45,Rapido
+Portal Usme,Av 68,27,5,4,17.006,9,1,0,0,1,83.81,Lento
+La Campiña,Heroes,9,0,1,9.199,11,1,0,0,0,18.21,Rapido
+Calle 22,San Facade,6,1,2,0.867,16,0,0,0,0,8.53,Rapido
+Shaio,La Campiña,6,0,1,4.495,23,3,0,0,0,10.29,Rapido
+Portal Suba,Tercer Milenio,18,3,3,16.453,9,6,0,1,1,26.58,Medio
+Portal Americas,Calle 45,17,3,3,8.069,15,0,0,0,1,36.24,Medio
+Olaya,NQS Calle 38A Sur,5,1,2,2.775,12,3,0,0,0,8.35,Rapido
+Portal 80,Gratamira,8,2,3,2.482,7,6,1,1,1,16.33,Rapido
+Yomasa,La Campiña,27,4,5,23.977,22,5,0,1,0,54.84,Lento
+Cardio Infantil,Virrey,10,0,1,7.081,22,4,0,0,0,19.13,Rapido
+Quiroga,Cardio Infantil,21,4,5,20.037,20,4,1,0,0,63.49,Lento
+Ricaurte,Calle 85,8,2,3,6.354,5,2,0,0,0,15.79,Rapido
+Simon Bolivar,Portal 80,6,0,1,4.95,7,6,1,1,1,13.15,Rapido
+Socorro,Av Chile,15,2,3,16.17,20,6,1,1,0,47.71,Medio
+Calle 85,Patio Bonito,15,3,4,8.841,5,6,0,1,0,23.7,Rapido
+Calle 127,Calle 19,10,4,3,10.356,8,4,1,0,0,22.69,Rapido
+General Santander,Calle 127,18,4,5,17.464,9,2,0,0,0,44.4,Medio
+CAN,Toberin,15,3,3,10.776,15,1,0,0,0,25.27,Medio
+NQS Calle 38A Sur,Calle 142,16,3,4,14.709,15,1,0,0,0,35.4,Medio
+Museo Nacional,Calle 22,3,0,1,0.333,6,1,1,0,0,4.03,Rapido
+Ferias,Pradera,10,2,3,4.254,21,6,0,1,0,17.46,Rapido
+Granja,CAN,10,4,4,4.219,15,3,0,0,0,19.22,Rapido
+Av 68,Olaya,15,4,3,10.162,12,0,0,0,0,28.19,Medio
+Calle 142,Flores,11,2,2,8.906,22,5,0,1,0,17.3,Rapido
+Olaya,Portal Americas,13,2,3,9.419,7,6,1,1,1,29.09,Medio
+Calle 40 Sur,Mundo Aventura,11,2,3,10.079,22,1,0,0,0,21.41,Rapido
+Pepe Sierra,San Victorino,11,5,3,10.487,19,0,1,0,0,24.86,Rapido
+Virrey,Hospitales,12,3,3,9.71,10,0,0,0,0,20.48,Rapido
+Granja,Suba TV 91,13,3,3,4.774,13,6,0,1,0,24.99,Rapido
+Yomasa,De La Sabana,14,3,4,12.265,23,6,0,1,0,27.15,Medio
+Ricaurte,Santa Lucia,10,2,3,8.897,7,2,1,0,0,30.96,Medio
+Calle 38A Sur,San Victorino,14,3,4,8.152,13,3,0,0,0,31.44,Medio
+Las Aguas,Marsella,10,2,3,5.617,13,6,0,1,0,14.25,Rapido
+Mandalay,Marsella,3,0,1,1.967,11,3,0,0,0,4.79,Rapido
+Calle 38A Sur,21 Angeles,23,4,5,21.09,20,0,1,0,0,86.72,Lento
+Olaya,San Victorino,8,2,3,3.998,20,6,1,1,0,13.27,Rapido
+Calle 100 Suba,Ricaurte,13,4,4,8.472,5,6,0,1,0,17.74,Rapido
+Calle 22,Modelia,9,2,2,6.529,17,6,1,1,0,19.1,Rapido
+Alcala,Calle 22,11,3,3,11.588,19,2,1,0,0,32.62,Medio
+El Dorado,Aurora,27,5,4,15.918,13,5,0,1,0,64.6,Lento
+Calle 127,Toberin,7,0,1,5.275,14,6,0,1,0,9.72,Rapido
+Pradera,Molinos,18,3,4,14.879,6,2,1,0,0,83.72,Lento
+Tercer Milenio,Consuelo,15,1,2,9.307,5,1,0,0,0,47.93,Medio
+Calle 19,Gratamira,11,3,3,11.614,23,4,0,0,0,19.1,Rapido
+Santa Lucia,Tercer Milenio,10,1,2,6.971,23,1,0,0,0,18.6,Rapido
+Calle 100,Calle 34,8,1,2,6.515,13,4,0,0,0,14.87,Rapido
+Gratamira,Cardio Infantil,13,1,2,4.507,5,5,0,1,0,21.8,Rapido
+San Victorino,Portal El Dorado,14,4,2,7.549,5,3,0,0,1,26.85,Medio
+Biblioteca Tintal,Mandalay,2,0,1,0.993,18,6,1,1,0,2.39,Rapido
+Quiroga,Portal Norte,23,4,5,22.405,20,2,1,0,1,63.82,Lento
+El Dorado,Biblioteca Tintal,22,4,3,3.078,13,3,0,0,0,42.48,Medio
+Nariño,Cardio Infantil,18,4,5,17.683,15,0,0,0,0,43.71,Medio
+El Dorado,Pepe Sierra,13,3,3,7.25,7,1,1,0,0,32.47,Medio
+Calle 100,Yomasa,22,5,5,18.298,8,0,1,0,0,78.25,Lento
+Socorro,Yomasa,2,0,1,0.579,15,6,0,1,0,3.7,Rapido
+Ferias,Marsella,11,2,3,4.446,6,6,1,1,0,27.14,Medio
+Calle 100 Suba,Suba TV 91,6,0,1,4.535,19,6,1,1,0,10.14,Rapido
+Calle 22,Calle 106,7,3,3,8.321,6,0,1,0,0,18.1,Rapido
+Calle 100,Calle 34,8,1,2,6.515,6,6,1,1,0,13.92,Rapido
+Yomasa,Polo,18,2,3,18.334,7,0,1,0,0,72.62,Lento
+Hospitales,Museo Nacional,4,1,2,2.962,17,0,1,0,0,7.07,Rapido
+Suba TV 91,Virrey,8,1,2,6.654,5,3,0,0,0,13.78,Rapido
+Virrey,Calle 142,8,0,1,5.292,15,5,0,1,0,15.39,Rapido
+Portal El Dorado,Quiroga,20,4,3,11.667,15,4,0,0,1,34.37,Medio
+Suba TV 91,Calle 100,7,0,1,6.036,23,6,0,1,0,10.39,Rapido
+Calle 34,Profamilia,2,0,1,0.675,13,2,0,0,0,1.57,Rapido
+Portal 80,Calle 85,4,2,3,3.771,12,1,0,0,1,7.95,Rapido
+La Campiña,Simon Bolivar,14,2,3,9.909,18,4,1,0,0,46.41,Medio
+La Campiña,Simon Bolivar,14,2,3,9.909,22,6,0,1,0,20.13,Rapido
+Tercer Milenio,Marsella,6,0,1,5.808,14,2,0,0,0,11.54,Rapido
+Calle 40 Sur,CAN,15,4,3,11.435,12,4,0,0,0,29.24,Medio
+Biblioteca Tintal,Pepe Sierra,16,4,5,10.017,16,1,0,0,0,39.24,Medio
+Centro Memoria,Calle 100,9,3,3,7.774,15,1,0,0,0,16.24,Rapido
+Portal Norte,Suba TV 91,17,1,2,5.777,15,6,0,1,1,29.84,Medio
+Toberin,Humedal Cordoba,13,1,2,5.884,18,2,1,0,0,32.23,Medio
+Av Chile,Pradera,6,1,2,3.356,12,0,0,0,0,12.94,Rapido
+Portal Norte,Virrey,12,0,1,9.449,11,1,0,0,1,24.52,Rapido
+Marly,Museo Nacional,6,0,1,1.798,11,3,0,0,0,8.96,Rapido
+Molinos,Alcala,28,5,6,23.108,7,2,1,0,0,96.88,Lento
+Hospitales,Portal 80,8,0,1,11.376,11,5,0,1,1,17.04,Rapido
+Av Chile,Av 68,10,3,4,2.132,11,1,0,0,0,18.01,Rapido
+Gobernacion,Calle 72,3,1,2,1.132,15,6,0,1,0,2.74,Rapido
+Aurora,Calle 72,21,4,4,15.717,13,0,0,0,0,52.93,Lento
+Museo Nacional,Calle 19,2,0,1,0.668,15,1,0,0,0,1.43,Rapido
+Mundo Aventura,Calle 63 NQS,7,1,2,4.369,21,6,0,1,0,12.3,Rapido
+Calle 100,Calle 22,6,2,3,7.865,9,1,0,0,0,10.67,Rapido
+Museo Nacional,Mundo Aventura,9,1,2,4.957,15,4,0,0,0,16.58,Rapido
+Av Chile,Toberin,14,3,4,9.126,23,1,0,0,0,26.96,Medio
+Calle 45,Mandalay,14,3,3,5.329,12,0,0,0,0,26.2,Medio
+Calle 34,Profamilia,2,0,1,0.675,23,3,0,0,0,1.23,Rapido
+Portal Suba,Toberin,18,1,2,5.136,7,1,1,0,1,51.79,Lento
+Profamilia,Mundo Aventura,12,1,2,4.874,20,4,1,0,0,28.34,Medio
+Mundo Aventura,Restrepo,8,2,3,8.002,20,5,1,1,0,21.35,Rapido
+Simon Bolivar,Normandia,13,3,4,3.179,23,5,0,1,0,19.12,Rapido
+Centro Memoria,Portal Americas,12,1,2,7.706,12,3,0,0,1,22.82,Rapido

@@ -35,3 +35,14 @@ secrets.json
 CLAUDE.md
 .claude/
 claude-*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
